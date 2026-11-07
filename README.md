@@ -16,6 +16,22 @@ Key results (details in `reports/executive_summary.md` and `reports/findings.md`
 - £6,746 is overpaid, from three separate causes.
 - SQL, Excel, Python and Power BI reproduce the same totals; every difference was explained.
 
+## Dashboard preview
+
+![Executive Overview](screenshots/pbi_page1_executive.png)
+
+![Financial Reconciliation](screenshots/pbi_page2_reconciliation.png)
+
+![Vendor Performance](screenshots/pbi_page3_vendor.png)
+
+![SLA and Workflow](screenshots/pbi_page4_sla.png)
+
+![Data Quality and Exceptions](screenshots/pbi_page5_data_quality.png)
+
+*Cross-tool reconciliation (Excel vs SQL):*
+
+![Excel control sheet](screenshots/excel_control_sheet.png)
+
 ## Business problem
 
 Payments depend on a chain of documents (installation, PO, invoice, payment) with no single view checking that they agree. The project answers 13 business questions (see `docs/01_project_charter.md`).
