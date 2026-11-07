@@ -1,0 +1,13 @@
+measure,value
+"K1 Recorded rebate, all installations (GBP)",391085.00
+"K1 Rule-based expected rebate (GBP)",389220.00
+"K2 PO line value, all POs (GBP)",385240.00
+"K3 Invoiced value, Rejected excluded (GBP)",382430.00
+"K4 Paid value, completed payments (GBP)",345646.00
+"K5 Outstanding, Approved + Submitted (GBP)",43530.00
+"Overpaid, Approved + Submitted (GBP)",6746.00
+"Installations (count)",6030.00
+"PO headers (count)",1256.00
+"Invoices (count)",1772.00
+"Payments (count)",1581.00
+"Billing-chain exceptions (count)",565.00

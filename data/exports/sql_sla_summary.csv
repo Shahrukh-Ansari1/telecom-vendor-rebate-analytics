@@ -1,0 +1,5 @@
+stage,sla_days,items_measured,avg_days,median_days,max_days,on_time,sla_compliance_pct,excluded_negative
+"1. Installation to rebate",2,6000,1.37,1.0000,4,4811,80.18,0
+"2. PO to invoice",14,1236,12.42,10.0000,44,922,74.60,0
+"3. Invoice review",5,1726,4.11,3.0000,12,1356,78.56,42
+"4. Approval to payment",10,1483,9.93,7.0000,47,1178,79.43,0

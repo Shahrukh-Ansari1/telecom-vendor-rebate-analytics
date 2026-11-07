@@ -1,0 +1,10 @@
+stage,category,records,exposure_gbp
+"A. Installation to invoice","6. Invoice differs from PO",134,10500.00
+"A. Installation to invoice","2. No PO line",135,9630.00
+"A. Installation to invoice","4. PO differs from rule",174,6710.00
+"B. Invoice to payment","8. Overpaid",46,6326.00
+"B. Invoice to payment","6. Part paid",23,5040.00
+"A. Installation to invoice","5. Not invoiced",56,4080.00
+"A. Installation to invoice","3. PO cancelled",43,3210.00
+"A. Installation to invoice","1. Cannot calculate (invalid property type)",23,1560.00
+"B. Invoice to payment","3. Invoice total not positive",3,420.00

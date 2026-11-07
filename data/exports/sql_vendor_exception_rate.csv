@@ -1,0 +1,37 @@
+vendor_id,vendor_name,vendor_category,txn_count,exception_count,exception_rate_pct,volume_flag,rank_no
+V031,"Gough Connect",Medium,235,31,13.19,Ranked,1
+V013,"Payne Installations",Medium,219,25,11.42,Ranked,2
+V015,"Brooks Fibre",Medium,273,31,11.36,Ranked,3
+V029,"Baker Installations",Medium,205,23,11.22,Ranked,4
+V007,"Norman Fibre",Large,1176,132,11.22,Ranked,4
+V035,"Owens Connect",Medium,138,15,10.87,Ranked,6
+V003,"White Telecom Services",Large,991,92,9.28,Ranked,7
+V016,"Kaur Fibre",Medium,131,12,9.16,Ranked,8
+V032,"Elliott Installations",Large,814,74,9.09,Ranked,9
+V005,"Newman Connect",Medium,249,21,8.43,Ranked,10
+V004,"Wilson Connect",Medium,208,17,8.17,Ranked,11
+V024,"Bryan Connect",Medium,256,20,7.81,Ranked,12
+V022,"Harrison Fibre",Medium,210,13,6.19,Ranked,13
+V020,"Bailey Installations",Medium,213,12,5.63,Ranked,14
+V008,"Hopkins Installations",Medium,202,9,4.46,Ranked,15
+V027,"Green Installations",Medium,159,6,3.77,Ranked,16
+V009,"Oliver Connect",Small,14,3,21.43,"Low volume",NULL
+V011,"Lloyd Networks",Small,10,2,20.00,"Low volume",NULL
+V006,"Davies Networks",Small,11,2,18.18,"Low volume",NULL
+V012,"Lowe Networks",Small,19,3,15.79,"Low volume",NULL
+V021,"Nelson Connect",Small,20,3,15.00,"Low volume",NULL
+V023,"Cook Networks",Small,20,3,15.00,"Low volume",NULL
+V001,"Dawson Networks",Small,24,3,12.50,"Low volume",NULL
+V028,"Glover Installations",Small,27,3,11.11,"Low volume",NULL
+V033,"Wilkinson Networks",Small,19,2,10.53,"Low volume",NULL
+V017,"Quinn Fibre",Small,10,1,10.00,"Low volume",NULL
+V018,"Wright Fibre",Small,11,1,9.09,"Low volume",NULL
+V026,"Holt Networks",Small,24,2,8.33,"Low volume",NULL
+V030,"Butler Fibre",Small,14,1,7.14,"Low volume",NULL
+V034,"Simpson Fibre",Small,16,1,6.25,"Low volume",NULL
+V019,"Barker Telecom Services",Small,20,1,5.00,"Low volume",NULL
+Unassigned,"(no vendor)",NULL,24,1,4.17,Unassigned,NULL
+V025,"Andrews Connect",Small,25,0,0.00,"Low volume",NULL
+V014,"Ryan Networks",Small,11,0,0.00,"Low volume",NULL
+V010,"Holland Installations",Small,10,0,0.00,"Low volume",NULL
+V002,"Jennings Networks",Small,22,0,0.00,"Low volume",NULL

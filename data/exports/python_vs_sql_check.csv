@@ -1,0 +1,8 @@
+,Python,SQL,Difference,Status
+K1 Recorded rebate,391085.0,391085,0.0,Match
+K2 PO line value,385240.0,385240,0.0,Match
+"K3 Invoiced, Rejected excluded",382430.0,382430,0.0,Match
+K4 Paid to valid invoices,345646.0,345646,0.0,Match
+K5 Outstanding,43530.0,43530,0.0,Match
+Overpaid,6746.0,6746,0.0,Match
+K6 Overdue,29896.0,29896,0.0,Match

@@ -1,0 +1,19 @@
+# Virtual environment (rebuild it from requirements.txt)
+.venv/
+
+# Python temporary files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets - never publish these
+.env
+config/secrets*
+*.pem
+
+# Excel temporary lock files
+~$*
+
+# Operating system files
+Thumbs.db
+.DS_Store

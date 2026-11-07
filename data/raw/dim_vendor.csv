@@ -1,0 +1,36 @@
+vendor_id,vendor_name,region,vendor_category,onboarding_date,vendor_status
+V001,Dawson Networks,London,Small,2024-12-25,Active
+V002,Jennings Networks,Wales,Small,2024-02-21,Active
+V003,White Telecom Services,London,Large,2025-01-21,Active
+V004,Wilson Connect,London,Medium,2023-08-30,Active
+V005,Newman Connect,North West,Medium,2024-01-07,Active
+V006,Davies Networks,South West,Small,2024-09-18,Active
+V007,Norman Fibre,East Midlands,Large,2024-08-08,Active
+V008,Hopkins Installations,Scotland,Medium,2025-07-19,Active
+V009,Oliver Connect,South East,Small,2024-08-10,Active
+V010,Holland Installations,Wales,Small,2024-08-27,Active
+V011,Lloyd Networks,London,Small,2023-07-03,Active
+V012,Lowe Networks,East of England,Small,2024-08-08,Active
+V013,Payne Installations,South West,Medium,2025-01-30,Active
+V014,Ryan Networks,Scotland,Small,2024-03-04,Active
+V015,Brooks Fibre,North East,Medium,2023-11-16,Active
+V016,Kaur Fibre,Wales,Medium,2023-07-08,Active
+V017,Quinn Fibre,London,Small,2024-07-18,Active
+V018,Wright Fibre,Scotland,Small,2024-10-14,Active
+V019,Barker Telecom Services,North West,Small,2023-11-13,Active
+V020,Bailey Installations,South West,Medium,2024-02-05,Active
+V021,Nelson Connect,North West,Small,2024-07-20,Active
+V022,Harrison Fibre,Yorkshire,Medium,2023-07-21,Active
+V023,Cook Networks,South West,Small,2023-06-13,Active
+V024,Bryan Connect,South East,Medium,2023-12-31,Suspended
+V025,Andrews Connect,West Midlands,Small,2025-08-21,Active
+V026,Holt Networks,Wales,Small,2023-07-26,Active
+V027,Green Installations,South East,Medium,2025-03-24,Active
+V028,Glover Installations,Yorkshire,Small,2024-03-31,Inactive
+V029,Baker Installations,Wales,Medium,2025-02-10,Active
+V030,Butler Fibre,Yorkshire,Small,2024-03-07,Inactive
+V031,Gough Connect,East Midlands,Medium,2025-05-10,Inactive
+V032,Elliott Installations,East of England,Large,2024-01-30,Inactive
+V033,Wilkinson Networks,North East,Small,2023-07-16,Active
+V034,Simpson Fibre,South West,Small,2024-02-17,Active
+V035,Owens Connect,Scotland,Medium,2025-01-28,Inactive

@@ -1,0 +1,21 @@
+check,records_flagged
+Missing vendor_id (installation),24
+Missing project_code (installation),24
+Missing installation_date,18
+Missing invoice_date,5
+Invoice without PO number,12
+Invalid property type,24
+Installation date in future,18
+Wrong rebate (recorded vs rule),120
+Eligible but not Completed,24
+PO line differs from rule,148
+Duplicate property_ref (extra copies),30
+Installation on two PO lines (extra copies),26
+Duplicate invoice reference (extra copies),19
+Duplicate payment reference (extra copies),9
+Negative invoice line value,17
+Zero or negative allocation,5
+Invoice line with no matching PO line,13
+Allocation to a non-existent invoice,8
+Payment differs from its allocations,21
+Invoice paid more than its total,49

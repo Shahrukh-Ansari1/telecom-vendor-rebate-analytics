@@ -1,0 +1,12 @@
+rule_id,rule_name,rule_value,value_type,rule_kind,description
+BR01,REBATE_PER_FLAT,60.00,DECIMAL,Business rule,Rebate per eligible flat (GBP)
+BR02,REBATE_PER_HOUSE,90.00,DECIMAL,Business rule,Rebate per eligible house (GBP)
+BR03,PAYMENT_TERMS_DAYS,30,INTEGER,Assumption,Days from invoice date to due date
+BR04,MIN_VENDOR_TRANSACTIONS,30,INTEGER,Assumption,Minimum transactions to rank a vendor
+BR05,TIME_BASIS,CALENDAR,TEXT,Assumption,Calendar or business days for processing time
+BR06,REPORTING_DATE,2026-09-30,DATE,Assumption,Fixed snapshot date used in all tools
+BR07,SLA_INSTALLATION_TO_REBATE,2,INTEGER,Assumption,SLA days: installation recorded to rebate calculated
+BR08,SLA_PO_TO_INVOICE,14,INTEGER,Assumption,SLA days: PO created to invoice submitted
+BR09,SLA_INVOICE_REVIEW,5,INTEGER,Assumption,SLA days: invoice submitted to approved or rejected
+BR10,SLA_APPROVAL_TO_PAYMENT,10,INTEGER,Assumption,SLA days: invoice approved to payment completed
+BR11,AMOUNT_TOLERANCE,0.00,DECIMAL,Assumption,Allowed difference when matching amounts (GBP)

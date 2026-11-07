@@ -1,0 +1,6 @@
+ageing_bucket,invoices,outstanding_gbp
+"1. Not yet due",52,13484.00
+"2. 1-30 days overdue",18,5073.00
+"3. 31-60 days overdue",12,2385.00
+"4. 61-90 days overdue",16,4488.00
+"5. Over 90 days overdue",79,17950.00

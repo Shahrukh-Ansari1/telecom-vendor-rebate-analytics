@@ -1,0 +1,1276 @@
+defect_id,table_name,record_id,defect_type,defect_class,original_value,defect_value,injected_rule
+DEF00001,installation_transaction,T000078,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00002,installation_transaction,T000140,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00003,installation_transaction,T000223,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00004,installation_transaction,T000226,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00005,installation_transaction,T000365,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00006,installation_transaction,T000443,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00007,installation_transaction,T000501,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00008,installation_transaction,T000519,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00009,installation_transaction,T000619,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00010,installation_transaction,T000918,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00011,installation_transaction,T000939,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00012,installation_transaction,T001003,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00013,installation_transaction,T001054,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00014,installation_transaction,T001301,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00015,installation_transaction,T001409,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00016,installation_transaction,T001430,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00017,installation_transaction,T001597,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00018,installation_transaction,T001662,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00019,installation_transaction,T001697,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00020,installation_transaction,T001955,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00021,installation_transaction,T001964,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00022,installation_transaction,T002015,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00023,installation_transaction,T002110,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00024,installation_transaction,T002126,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00025,installation_transaction,T002150,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00026,installation_transaction,T002388,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00027,installation_transaction,T002491,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00028,installation_transaction,T002568,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00029,installation_transaction,T002569,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00030,installation_transaction,T002606,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00031,installation_transaction,T002631,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00032,installation_transaction,T002643,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00033,installation_transaction,T002829,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00034,installation_transaction,T002835,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00035,installation_transaction,T002912,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00036,installation_transaction,T002919,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00037,installation_transaction,T002943,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00038,installation_transaction,T002996,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00039,installation_transaction,T003006,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00040,installation_transaction,T003031,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00041,installation_transaction,T003086,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00042,installation_transaction,T003149,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00043,installation_transaction,T003150,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00044,installation_transaction,T003242,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00045,installation_transaction,T003251,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00046,installation_transaction,T003324,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00047,installation_transaction,T003358,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00048,installation_transaction,T003460,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00049,installation_transaction,T003470,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00050,installation_transaction,T003482,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00051,installation_transaction,T003593,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00052,installation_transaction,T003653,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00053,installation_transaction,T003702,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00054,installation_transaction,T003706,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00055,installation_transaction,T003814,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00056,installation_transaction,T004038,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00057,installation_transaction,T004135,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00058,installation_transaction,T004175,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00059,installation_transaction,T004219,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00060,installation_transaction,T004362,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00061,installation_transaction,T004420,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00062,installation_transaction,T004560,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00063,installation_transaction,T004596,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00064,installation_transaction,T004619,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00065,installation_transaction,T004625,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00066,installation_transaction,T004912,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00067,installation_transaction,T005017,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00068,installation_transaction,T005064,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00069,installation_transaction,T005224,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00070,installation_transaction,T005265,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00071,installation_transaction,T005303,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00072,installation_transaction,T005319,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00073,installation_transaction,T005326,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00074,installation_transaction,T005366,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00075,installation_transaction,T005467,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00076,installation_transaction,T005559,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00077,installation_transaction,T005659,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00078,installation_transaction,T005843,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00079,installation_transaction,T005916,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00080,installation_transaction,T005960,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00081,installation_transaction,T005968,Installation without PO line,Business exception,PO line expected,No PO line,1.5% of eligible installations never get a PO line
+DEF00082,po_line,POL000001,PO value differs from expected rebate,Data defect,60.00,30.00,2.5% of PO lines have a value different from the expected rebate
+DEF00083,po_line,POL000005,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00084,po_line,POL000146,PO value differs from expected rebate,Data defect,60.00,40.00,2.5% of PO lines have a value different from the expected rebate
+DEF00085,po_line,POL000157,PO value differs from expected rebate,Data defect,60.00,70.00,2.5% of PO lines have a value different from the expected rebate
+DEF00086,po_line,POL000220,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00087,po_line,POL000331,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00088,po_line,POL000344,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00089,po_line,POL000419,PO value differs from expected rebate,Data defect,60.00,40.00,2.5% of PO lines have a value different from the expected rebate
+DEF00090,po_line,POL000421,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00091,po_line,POL000437,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00092,po_line,POL000438,PO value differs from expected rebate,Data defect,90.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00093,po_line,POL000491,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00094,po_line,POL000684,PO value differs from expected rebate,Data defect,90.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00095,po_line,POL000703,PO value differs from expected rebate,Data defect,90.00,70.00,2.5% of PO lines have a value different from the expected rebate
+DEF00096,po_line,POL000765,PO value differs from expected rebate,Data defect,60.00,30.00,2.5% of PO lines have a value different from the expected rebate
+DEF00097,po_line,POL000780,PO value differs from expected rebate,Data defect,90.00,70.00,2.5% of PO lines have a value different from the expected rebate
+DEF00098,po_line,POL000837,PO value differs from expected rebate,Data defect,60.00,30.00,2.5% of PO lines have a value different from the expected rebate
+DEF00099,po_line,POL000851,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00100,po_line,POL000870,PO value differs from expected rebate,Data defect,90.00,150.00,2.5% of PO lines have a value different from the expected rebate
+DEF00101,po_line,POL000873,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00102,po_line,POL000880,PO value differs from expected rebate,Data defect,90.00,150.00,2.5% of PO lines have a value different from the expected rebate
+DEF00103,po_line,POL000926,PO value differs from expected rebate,Data defect,60.00,30.00,2.5% of PO lines have a value different from the expected rebate
+DEF00104,po_line,POL000938,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00105,po_line,POL000942,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00106,po_line,POL000957,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00107,po_line,POL000970,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00108,po_line,POL000990,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00109,po_line,POL001007,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00110,po_line,POL001035,PO value differs from expected rebate,Data defect,90.00,100.00,2.5% of PO lines have a value different from the expected rebate
+DEF00111,po_line,POL001056,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00112,po_line,POL001059,PO value differs from expected rebate,Data defect,90.00,60.00,2.5% of PO lines have a value different from the expected rebate
+DEF00113,po_line,POL001098,PO value differs from expected rebate,Data defect,90.00,100.00,2.5% of PO lines have a value different from the expected rebate
+DEF00114,po_line,POL001112,PO value differs from expected rebate,Data defect,90.00,60.00,2.5% of PO lines have a value different from the expected rebate
+DEF00115,po_line,POL001134,PO value differs from expected rebate,Data defect,90.00,70.00,2.5% of PO lines have a value different from the expected rebate
+DEF00116,po_line,POL001206,PO value differs from expected rebate,Data defect,60.00,30.00,2.5% of PO lines have a value different from the expected rebate
+DEF00117,po_line,POL001284,PO value differs from expected rebate,Data defect,90.00,70.00,2.5% of PO lines have a value different from the expected rebate
+DEF00118,po_line,POL001329,PO value differs from expected rebate,Data defect,90.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00119,po_line,POL001342,PO value differs from expected rebate,Data defect,90.00,100.00,2.5% of PO lines have a value different from the expected rebate
+DEF00120,po_line,POL001431,PO value differs from expected rebate,Data defect,60.00,30.00,2.5% of PO lines have a value different from the expected rebate
+DEF00121,po_header,PO000333,Cancelled PO,Business exception,Open,Cancelled,1.0% of POs are cancelled before invoicing
+DEF00122,po_line,POL001447,PO value differs from expected rebate,Data defect,60.00,70.00,2.5% of PO lines have a value different from the expected rebate
+DEF00123,po_header,PO000336,Cancelled PO,Business exception,Open,Cancelled,1.0% of POs are cancelled before invoicing
+DEF00124,po_header,PO000340,Cancelled PO,Business exception,Open,Cancelled,1.0% of POs are cancelled before invoicing
+DEF00125,po_line,POL001489,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00126,po_line,POL001530,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00127,po_line,POL001543,PO value differs from expected rebate,Data defect,90.00,150.00,2.5% of PO lines have a value different from the expected rebate
+DEF00128,po_line,POL001571,PO value differs from expected rebate,Data defect,60.00,30.00,2.5% of PO lines have a value different from the expected rebate
+DEF00129,po_line,POL001608,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00130,po_line,POL001656,PO value differs from expected rebate,Data defect,90.00,150.00,2.5% of PO lines have a value different from the expected rebate
+DEF00131,po_line,POL001704,PO value differs from expected rebate,Data defect,60.00,40.00,2.5% of PO lines have a value different from the expected rebate
+DEF00132,po_line,POL001753,PO value differs from expected rebate,Data defect,60.00,30.00,2.5% of PO lines have a value different from the expected rebate
+DEF00133,po_line,POL001791,PO value differs from expected rebate,Data defect,90.00,60.00,2.5% of PO lines have a value different from the expected rebate
+DEF00134,po_line,POL001802,PO value differs from expected rebate,Data defect,60.00,40.00,2.5% of PO lines have a value different from the expected rebate
+DEF00135,po_line,POL001804,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00136,po_header,PO000416,Cancelled PO,Business exception,Open,Cancelled,1.0% of POs are cancelled before invoicing
+DEF00137,po_line,POL001824,PO value differs from expected rebate,Data defect,60.00,40.00,2.5% of PO lines have a value different from the expected rebate
+DEF00138,po_line,POL001839,PO value differs from expected rebate,Data defect,90.00,100.00,2.5% of PO lines have a value different from the expected rebate
+DEF00139,po_line,POL001843,PO value differs from expected rebate,Data defect,90.00,70.00,2.5% of PO lines have a value different from the expected rebate
+DEF00140,po_line,POL001874,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00141,po_line,POL001884,PO value differs from expected rebate,Data defect,90.00,100.00,2.5% of PO lines have a value different from the expected rebate
+DEF00142,po_line,POL001887,PO value differs from expected rebate,Data defect,90.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00143,po_line,POL001922,PO value differs from expected rebate,Data defect,60.00,70.00,2.5% of PO lines have a value different from the expected rebate
+DEF00144,po_line,POL001940,PO value differs from expected rebate,Data defect,90.00,150.00,2.5% of PO lines have a value different from the expected rebate
+DEF00145,po_line,POL001946,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00146,po_line,POL002006,PO value differs from expected rebate,Data defect,60.00,70.00,2.5% of PO lines have a value different from the expected rebate
+DEF00147,po_line,POL002010,PO value differs from expected rebate,Data defect,90.00,100.00,2.5% of PO lines have a value different from the expected rebate
+DEF00148,po_line,POL002050,PO value differs from expected rebate,Data defect,60.00,40.00,2.5% of PO lines have a value different from the expected rebate
+DEF00149,po_line,POL002130,PO value differs from expected rebate,Data defect,60.00,30.00,2.5% of PO lines have a value different from the expected rebate
+DEF00150,po_line,POL002148,PO value differs from expected rebate,Data defect,60.00,40.00,2.5% of PO lines have a value different from the expected rebate
+DEF00151,po_line,POL002155,PO value differs from expected rebate,Data defect,90.00,150.00,2.5% of PO lines have a value different from the expected rebate
+DEF00152,po_line,POL002221,PO value differs from expected rebate,Data defect,60.00,30.00,2.5% of PO lines have a value different from the expected rebate
+DEF00153,po_line,POL002226,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00154,po_line,POL002235,PO value differs from expected rebate,Data defect,60.00,40.00,2.5% of PO lines have a value different from the expected rebate
+DEF00155,po_line,POL002260,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00156,po_line,POL002306,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00157,po_line,POL002350,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00158,po_line,POL002514,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00159,po_line,POL002519,PO value differs from expected rebate,Data defect,60.00,70.00,2.5% of PO lines have a value different from the expected rebate
+DEF00160,po_line,POL002564,PO value differs from expected rebate,Data defect,90.00,100.00,2.5% of PO lines have a value different from the expected rebate
+DEF00161,po_line,POL002641,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00162,po_header,PO000618,Cancelled PO,Business exception,Open,Cancelled,1.0% of POs are cancelled before invoicing
+DEF00163,po_line,POL002666,PO value differs from expected rebate,Data defect,90.00,60.00,2.5% of PO lines have a value different from the expected rebate
+DEF00164,po_line,POL002684,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00165,po_line,POL002732,PO value differs from expected rebate,Data defect,60.00,30.00,2.5% of PO lines have a value different from the expected rebate
+DEF00166,po_line,POL002741,PO value differs from expected rebate,Data defect,90.00,150.00,2.5% of PO lines have a value different from the expected rebate
+DEF00167,po_line,POL002750,PO value differs from expected rebate,Data defect,60.00,30.00,2.5% of PO lines have a value different from the expected rebate
+DEF00168,po_line,POL002786,PO value differs from expected rebate,Data defect,90.00,150.00,2.5% of PO lines have a value different from the expected rebate
+DEF00169,po_line,POL002815,PO value differs from expected rebate,Data defect,60.00,30.00,2.5% of PO lines have a value different from the expected rebate
+DEF00170,po_line,POL002846,PO value differs from expected rebate,Data defect,60.00,40.00,2.5% of PO lines have a value different from the expected rebate
+DEF00171,po_line,POL002867,PO value differs from expected rebate,Data defect,60.00,40.00,2.5% of PO lines have a value different from the expected rebate
+DEF00172,po_line,POL002973,PO value differs from expected rebate,Data defect,90.00,70.00,2.5% of PO lines have a value different from the expected rebate
+DEF00173,po_line,POL002977,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00174,po_line,POL002978,PO value differs from expected rebate,Data defect,90.00,150.00,2.5% of PO lines have a value different from the expected rebate
+DEF00175,po_line,POL002989,PO value differs from expected rebate,Data defect,90.00,150.00,2.5% of PO lines have a value different from the expected rebate
+DEF00176,po_line,POL003002,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00177,po_line,POL003017,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00178,po_line,POL003018,PO value differs from expected rebate,Data defect,60.00,40.00,2.5% of PO lines have a value different from the expected rebate
+DEF00179,po_line,POL003030,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00180,po_header,PO000712,Cancelled PO,Business exception,Open,Cancelled,1.0% of POs are cancelled before invoicing
+DEF00181,po_line,POL003086,PO value differs from expected rebate,Data defect,90.00,100.00,2.5% of PO lines have a value different from the expected rebate
+DEF00182,po_line,POL003181,PO value differs from expected rebate,Data defect,60.00,30.00,2.5% of PO lines have a value different from the expected rebate
+DEF00183,po_line,POL003278,PO value differs from expected rebate,Data defect,60.00,70.00,2.5% of PO lines have a value different from the expected rebate
+DEF00184,po_line,POL003282,PO value differs from expected rebate,Data defect,90.00,60.00,2.5% of PO lines have a value different from the expected rebate
+DEF00185,po_line,POL003295,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00186,po_line,POL003301,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00187,po_line,POL003334,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00188,po_line,POL003428,PO value differs from expected rebate,Data defect,90.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00189,po_line,POL003500,PO value differs from expected rebate,Data defect,60.00,70.00,2.5% of PO lines have a value different from the expected rebate
+DEF00190,po_line,POL003506,PO value differs from expected rebate,Data defect,60.00,70.00,2.5% of PO lines have a value different from the expected rebate
+DEF00191,po_header,PO000840,Cancelled PO,Business exception,Open,Cancelled,1.0% of POs are cancelled before invoicing
+DEF00192,po_line,POL003623,PO value differs from expected rebate,Data defect,60.00,70.00,2.5% of PO lines have a value different from the expected rebate
+DEF00193,po_line,POL003689,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00194,po_line,POL003708,PO value differs from expected rebate,Data defect,60.00,40.00,2.5% of PO lines have a value different from the expected rebate
+DEF00195,po_line,POL003810,PO value differs from expected rebate,Data defect,60.00,30.00,2.5% of PO lines have a value different from the expected rebate
+DEF00196,po_line,POL003952,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00197,po_line,POL003954,PO value differs from expected rebate,Data defect,90.00,60.00,2.5% of PO lines have a value different from the expected rebate
+DEF00198,po_line,POL004030,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00199,po_line,POL004090,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00200,po_line,POL004144,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00201,po_line,POL004221,PO value differs from expected rebate,Data defect,60.00,70.00,2.5% of PO lines have a value different from the expected rebate
+DEF00202,po_line,POL004225,PO value differs from expected rebate,Data defect,90.00,60.00,2.5% of PO lines have a value different from the expected rebate
+DEF00203,po_line,POL004306,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00204,po_line,POL004313,PO value differs from expected rebate,Data defect,90.00,150.00,2.5% of PO lines have a value different from the expected rebate
+DEF00205,po_line,POL004323,PO value differs from expected rebate,Data defect,90.00,150.00,2.5% of PO lines have a value different from the expected rebate
+DEF00206,po_line,POL004326,PO value differs from expected rebate,Data defect,60.00,70.00,2.5% of PO lines have a value different from the expected rebate
+DEF00207,po_line,POL004329,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00208,po_header,PO001038,Cancelled PO,Business exception,Open,Cancelled,1.0% of POs are cancelled before invoicing
+DEF00209,po_line,POL004352,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00210,po_line,POL004354,PO value differs from expected rebate,Data defect,60.00,70.00,2.5% of PO lines have a value different from the expected rebate
+DEF00211,po_line,POL004385,PO value differs from expected rebate,Data defect,60.00,40.00,2.5% of PO lines have a value different from the expected rebate
+DEF00212,po_line,POL004414,PO value differs from expected rebate,Data defect,90.00,60.00,2.5% of PO lines have a value different from the expected rebate
+DEF00213,po_line,POL004462,PO value differs from expected rebate,Data defect,60.00,30.00,2.5% of PO lines have a value different from the expected rebate
+DEF00214,po_line,POL004478,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00215,po_line,POL004494,PO value differs from expected rebate,Data defect,60.00,70.00,2.5% of PO lines have a value different from the expected rebate
+DEF00216,po_line,POL004520,PO value differs from expected rebate,Data defect,90.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00217,po_header,PO001090,Cancelled PO,Business exception,Open,Cancelled,1.0% of POs are cancelled before invoicing
+DEF00218,po_line,POL004566,PO value differs from expected rebate,Data defect,90.00,70.00,2.5% of PO lines have a value different from the expected rebate
+DEF00219,po_line,POL004659,PO value differs from expected rebate,Data defect,60.00,70.00,2.5% of PO lines have a value different from the expected rebate
+DEF00220,po_line,POL004703,PO value differs from expected rebate,Data defect,60.00,40.00,2.5% of PO lines have a value different from the expected rebate
+DEF00221,po_line,POL004730,PO value differs from expected rebate,Data defect,60.00,90.00,2.5% of PO lines have a value different from the expected rebate
+DEF00222,po_line,POL004739,PO value differs from expected rebate,Data defect,60.00,40.00,2.5% of PO lines have a value different from the expected rebate
+DEF00223,po_line,POL004741,PO value differs from expected rebate,Data defect,90.00,100.00,2.5% of PO lines have a value different from the expected rebate
+DEF00224,po_line,POL004746,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00225,po_line,POL004753,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00226,po_line,POL004784,PO value differs from expected rebate,Data defect,90.00,70.00,2.5% of PO lines have a value different from the expected rebate
+DEF00227,po_line,POL004813,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00228,po_line,POL004827,PO value differs from expected rebate,Data defect,60.00,30.00,2.5% of PO lines have a value different from the expected rebate
+DEF00229,po_line,POL004929,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00230,po_line,POL004957,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00231,po_line,POL005020,PO value differs from expected rebate,Data defect,60.00,40.00,2.5% of PO lines have a value different from the expected rebate
+DEF00232,po_line,POL005037,PO value differs from expected rebate,Data defect,90.00,100.00,2.5% of PO lines have a value different from the expected rebate
+DEF00233,po_header,PO001192,Cancelled PO,Business exception,Open,Cancelled,1.0% of POs are cancelled before invoicing
+DEF00234,po_line,POL005055,PO value differs from expected rebate,Data defect,90.00,60.00,2.5% of PO lines have a value different from the expected rebate
+DEF00235,po_line,POL005059,PO value differs from expected rebate,Data defect,60.00,30.00,2.5% of PO lines have a value different from the expected rebate
+DEF00236,po_line,POL005206,PO value differs from expected rebate,Data defect,90.00,70.00,2.5% of PO lines have a value different from the expected rebate
+DEF00237,po_line,POL005223,PO value differs from expected rebate,Data defect,90.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00238,po_line,POL005267,PO value differs from expected rebate,Data defect,60.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00239,po_line,POL005294,PO value differs from expected rebate,Data defect,90.00,120.00,2.5% of PO lines have a value different from the expected rebate
+DEF00240,invoice_header,INV000005,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00241,invoice_header,INV000006,Resubmitted invoice,Business exception,INV000005,INV000006,Rejected invoices are resubmitted with a -R1 reference
+DEF00242,invoice_line,INL000018,Invoice line without matching PO line,Data defect,POL000016,POL991748,1.0% of invoices have a line pointing to a PO line that does not exist
+DEF00243,invoice_header,INV000015,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00244,invoice_header,INV000016,Resubmitted invoice,Business exception,INV000015,INV000016,Rejected invoices are resubmitted with a -R1 reference
+DEF00245,invoice_header,INV000017,Invoice without PO number,Data defect,PO000014,,1.0% of invoices are submitted without a PO number
+DEF00246,invoice_header,INV000017,Rejected invoice,Business exception,,Missing PO,7.0% of invoices are rejected at review
+DEF00247,invoice_header,INV000018,Resubmitted invoice,Business exception,INV000017,INV000018,Rejected invoices are resubmitted with a -R1 reference
+DEF00248,invoice_header,INV000033,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00249,invoice_header,INV000034,Resubmitted invoice,Business exception,INV000033,INV000034,Rejected invoices are resubmitted with a -R1 reference
+DEF00250,invoice_header,INV000041,Duplicate invoice reference,Data defect,INV000040,INV000041,1.0% of invoices are sent twice with the same reference
+DEF00251,invoice_line,INL000157,Invoice value differs from PO line,Data defect,60.00,90.00,3.0% of invoices bill a value different from the PO line
+DEF00252,invoice_header,INV000052,Rejected invoice,Business exception,,Amount mismatch,7.0% of invoices are rejected at review
+DEF00253,invoice_header,INV000053,Resubmitted invoice,Business exception,INV000052,INV000053,Rejected invoices are resubmitted with a -R1 reference
+DEF00254,invoice_header,INV000054,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00255,invoice_header,INV000055,Resubmitted invoice,Business exception,INV000054,INV000055,Rejected invoices are resubmitted with a -R1 reference
+DEF00256,invoice_line,INL000173,Invoice value differs from PO line,Data defect,60.00,70.00,3.0% of invoices bill a value different from the PO line
+DEF00257,invoice_header,INV000064,Duplicate invoice reference,Data defect,INV000063,INV000064,1.0% of invoices are sent twice with the same reference
+DEF00258,invoice_header,INV000068,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00259,invoice_header,INV000069,Resubmitted invoice,Business exception,INV000068,INV000069,Rejected invoices are resubmitted with a -R1 reference
+DEF00260,invoice_line,INL000214,Invoice value differs from PO line,Data defect,90.00,70.00,3.0% of invoices bill a value different from the PO line
+DEF00261,invoice_header,INV000073,Rejected invoice,Business exception,,Amount mismatch,7.0% of invoices are rejected at review
+DEF00262,invoice_header,INV000074,Resubmitted invoice,Business exception,INV000073,INV000074,Rejected invoices are resubmitted with a -R1 reference
+DEF00263,invoice_header,INV000081,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00264,invoice_header,INV000082,Resubmitted invoice,Business exception,INV000081,INV000082,Rejected invoices are resubmitted with a -R1 reference
+DEF00265,invoice_header,INV000085,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00266,invoice_header,INV000086,Resubmitted invoice,Business exception,INV000085,INV000086,Rejected invoices are resubmitted with a -R1 reference
+DEF00267,invoice_header,INV000094,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00268,invoice_header,INV000095,Resubmitted invoice,Business exception,INV000094,INV000095,Rejected invoices are resubmitted with a -R1 reference
+DEF00269,invoice_header,INV000098,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00270,invoice_header,INV000099,Resubmitted invoice,Business exception,INV000098,INV000099,Rejected invoices are resubmitted with a -R1 reference
+DEF00271,invoice_header,INV000102,Duplicate invoice reference,Data defect,INV000101,INV000102,1.0% of invoices are sent twice with the same reference
+DEF00272,invoice_header,INV000108,Potential duplicate invoice,Data defect,INV000107,INV000108,"0.8% of invoices are sent again with a new reference, same value, within 7 days"
+DEF00273,invoice_header,INV000113,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00274,invoice_header,INV000114,Resubmitted invoice,Business exception,INV000113,INV000114,Rejected invoices are resubmitted with a -R1 reference
+DEF00275,invoice_header,INV000120,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00276,invoice_header,INV000121,Resubmitted invoice,Business exception,INV000120,INV000121,Rejected invoices are resubmitted with a -R1 reference
+DEF00277,invoice_header,INV000128,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00278,invoice_header,INV000129,Resubmitted invoice,Business exception,INV000128,INV000129,Rejected invoices are resubmitted with a -R1 reference
+DEF00279,invoice_header,INV000136,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00280,invoice_header,INV000137,Resubmitted invoice,Business exception,INV000136,INV000137,Rejected invoices are resubmitted with a -R1 reference
+DEF00281,invoice_header,INV000147,Duplicate invoice reference,Data defect,INV000146,INV000147,1.0% of invoices are sent twice with the same reference
+DEF00282,invoice_line,INL000514,Invoice value differs from PO line,Data defect,60.00,70.00,3.0% of invoices bill a value different from the PO line
+DEF00283,invoice_header,INV000161,Rejected invoice,Business exception,,Amount mismatch,7.0% of invoices are rejected at review
+DEF00284,invoice_header,INV000162,Resubmitted invoice,Business exception,INV000161,INV000162,Rejected invoices are resubmitted with a -R1 reference
+DEF00285,invoice_line,INL000566,Invoice value differs from PO line,Data defect,90.00,180.00,3.0% of invoices bill a value different from the PO line
+DEF00286,invoice_header,INV000173,Rejected invoice,Business exception,,Amount mismatch,7.0% of invoices are rejected at review
+DEF00287,invoice_header,INV000174,Resubmitted invoice,Business exception,INV000173,INV000174,Rejected invoices are resubmitted with a -R1 reference
+DEF00288,invoice_header,INV000178,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00289,invoice_header,INV000179,Resubmitted invoice,Business exception,INV000178,INV000179,Rejected invoices are resubmitted with a -R1 reference
+DEF00290,invoice_header,INV000180,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00291,invoice_header,INV000181,Resubmitted invoice,Business exception,INV000180,INV000181,Rejected invoices are resubmitted with a -R1 reference
+DEF00292,invoice_header,INV000185,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00293,invoice_header,INV000186,Resubmitted invoice,Business exception,INV000185,INV000186,Rejected invoices are resubmitted with a -R1 reference
+DEF00294,invoice_header,INV000198,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00295,invoice_header,INV000207,Invoice without PO number,Data defect,PO000137,,1.0% of invoices are submitted without a PO number
+DEF00296,invoice_header,INV000210,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00297,invoice_header,INV000211,Resubmitted invoice,Business exception,INV000210,INV000211,Rejected invoices are resubmitted with a -R1 reference
+DEF00298,invoice_header,INV000213,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00299,invoice_header,INV000214,Resubmitted invoice,Business exception,INV000213,INV000214,Rejected invoices are resubmitted with a -R1 reference
+DEF00300,invoice_header,INV000232,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00301,invoice_header,INV000233,Resubmitted invoice,Business exception,INV000232,INV000233,Rejected invoices are resubmitted with a -R1 reference
+DEF00302,invoice_header,INV000243,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00303,invoice_header,INV000244,Resubmitted invoice,Business exception,INV000243,INV000244,Rejected invoices are resubmitted with a -R1 reference
+DEF00304,invoice_header,INV000249,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00305,invoice_header,INV000250,Resubmitted invoice,Business exception,INV000249,INV000250,Rejected invoices are resubmitted with a -R1 reference
+DEF00306,invoice_header,INV000254,Potential duplicate invoice,Data defect,INV000253,INV000254,"0.8% of invoices are sent again with a new reference, same value, within 7 days"
+DEF00307,invoice_line,INL000857,Invoice line without matching PO line,Data defect,POL000763,POL918345,1.0% of invoices have a line pointing to a PO line that does not exist
+DEF00308,invoice_header,INV000272,Rejected invoice,Business exception,,Unmatched PO line,7.0% of invoices are rejected at review
+DEF00309,invoice_header,INV000273,Resubmitted invoice,Business exception,INV000272,INV000273,Rejected invoices are resubmitted with a -R1 reference
+DEF00310,invoice_header,INV000280,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00311,invoice_header,INV000286,Potential duplicate invoice,Data defect,INV000285,INV000286,"0.8% of invoices are sent again with a new reference, same value, within 7 days"
+DEF00312,invoice_header,INV000287,Invoice without PO number,Data defect,PO000189,,1.0% of invoices are submitted without a PO number
+DEF00313,invoice_line,INL000940,Invoice value differs from PO line,Data defect,90.00,70.00,3.0% of invoices bill a value different from the PO line
+DEF00314,invoice_header,INV000303,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00315,invoice_header,INV000304,Resubmitted invoice,Business exception,INV000303,INV000304,Rejected invoices are resubmitted with a -R1 reference
+DEF00316,invoice_header,INV000311,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00317,invoice_header,INV000312,Resubmitted invoice,Business exception,INV000311,INV000312,Rejected invoices are resubmitted with a -R1 reference
+DEF00318,invoice_header,INV000319,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00319,invoice_header,INV000320,Resubmitted invoice,Business exception,INV000319,INV000320,Rejected invoices are resubmitted with a -R1 reference
+DEF00320,invoice_header,INV000335,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00321,invoice_header,INV000336,Resubmitted invoice,Business exception,INV000335,INV000336,Rejected invoices are resubmitted with a -R1 reference
+DEF00322,invoice_header,INV000338,Invoice without PO number,Data defect,PO000224,,1.0% of invoices are submitted without a PO number
+DEF00323,invoice_header,INV000338,Rejected invoice,Business exception,,Missing PO,7.0% of invoices are rejected at review
+DEF00324,invoice_header,INV000339,Resubmitted invoice,Business exception,INV000338,INV000339,Rejected invoices are resubmitted with a -R1 reference
+DEF00325,invoice_header,INV000348,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00326,invoice_header,INV000349,Resubmitted invoice,Business exception,INV000348,INV000349,Rejected invoices are resubmitted with a -R1 reference
+DEF00327,invoice_header,INV000352,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00328,invoice_header,INV000353,Resubmitted invoice,Business exception,INV000352,INV000353,Rejected invoices are resubmitted with a -R1 reference
+DEF00329,invoice_header,INV000354,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00330,invoice_header,INV000355,Resubmitted invoice,Business exception,INV000354,INV000355,Rejected invoices are resubmitted with a -R1 reference
+DEF00331,invoice_header,INV000357,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00332,invoice_header,INV000358,Resubmitted invoice,Business exception,INV000357,INV000358,Rejected invoices are resubmitted with a -R1 reference
+DEF00333,invoice_header,INV000374,Invoice without PO number,Data defect,PO000244,,1.0% of invoices are submitted without a PO number
+DEF00334,invoice_header,INV000379,Invoice without PO number,Data defect,PO000248,,1.0% of invoices are submitted without a PO number
+DEF00335,invoice_line,INL001198,Invoice value differs from PO line,Data defect,90.00,120.00,3.0% of invoices bill a value different from the PO line
+DEF00336,invoice_header,INV000388,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00337,invoice_header,INV000389,Resubmitted invoice,Business exception,INV000388,INV000389,Rejected invoices are resubmitted with a -R1 reference
+DEF00338,invoice_line,INL001228,Invoice value differs from PO line,Data defect,60.00,90.00,3.0% of invoices bill a value different from the PO line
+DEF00339,invoice_header,INV000392,Rejected invoice,Business exception,,Amount mismatch,7.0% of invoices are rejected at review
+DEF00340,invoice_header,INV000393,Resubmitted invoice,Business exception,INV000392,INV000393,Rejected invoices are resubmitted with a -R1 reference
+DEF00341,invoice_header,INV000397,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00342,invoice_line,INL001272,Invoice value differs from PO line,Data defect,60.00,90.00,3.0% of invoices bill a value different from the PO line
+DEF00343,invoice_line,INL001300,Invoice value differs from PO line,Data defect,60.00,70.00,3.0% of invoices bill a value different from the PO line
+DEF00344,invoice_header,INV000408,Rejected invoice,Business exception,,Amount mismatch,7.0% of invoices are rejected at review
+DEF00345,invoice_header,INV000409,Resubmitted invoice,Business exception,INV000408,INV000409,Rejected invoices are resubmitted with a -R1 reference
+DEF00346,invoice_header,INV000419,Duplicate invoice reference,Data defect,INV000418,INV000419,1.0% of invoices are sent twice with the same reference
+DEF00347,invoice_line,INL001360,Invoice value differs from PO line,Data defect,60.00,150.00,3.0% of invoices bill a value different from the PO line
+DEF00348,invoice_header,INV000427,Rejected invoice,Business exception,,Amount mismatch,7.0% of invoices are rejected at review
+DEF00349,invoice_header,INV000428,Resubmitted invoice,Business exception,INV000427,INV000428,Rejected invoices are resubmitted with a -R1 reference
+DEF00350,invoice_header,INV000434,Potential duplicate invoice,Data defect,INV000433,INV000434,"0.8% of invoices are sent again with a new reference, same value, within 7 days"
+DEF00351,invoice_line,INL001388,Invoice value differs from PO line,Data defect,90.00,100.00,3.0% of invoices bill a value different from the PO line
+DEF00352,invoice_line,INL001390,Invoice value differs from PO line,Data defect,60.00,150.00,3.0% of invoices bill a value different from the PO line
+DEF00353,invoice_header,INV000436,Rejected invoice,Business exception,,Amount mismatch,7.0% of invoices are rejected at review
+DEF00354,invoice_header,INV000437,Resubmitted invoice,Business exception,INV000436,INV000437,Rejected invoices are resubmitted with a -R1 reference
+DEF00355,invoice_header,INV000453,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00356,invoice_header,INV000454,Resubmitted invoice,Business exception,INV000453,INV000454,Rejected invoices are resubmitted with a -R1 reference
+DEF00357,invoice_line,INL001476,Invoice value differs from PO line,Data defect,60.00,90.00,3.0% of invoices bill a value different from the PO line
+DEF00358,invoice_header,INV000458,Rejected invoice,Business exception,,Amount mismatch,7.0% of invoices are rejected at review
+DEF00359,invoice_header,INV000459,Resubmitted invoice,Business exception,INV000458,INV000459,Rejected invoices are resubmitted with a -R1 reference
+DEF00360,invoice_header,INV000468,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00361,invoice_header,INV000469,Resubmitted invoice,Business exception,INV000468,INV000469,Rejected invoices are resubmitted with a -R1 reference
+DEF00362,invoice_line,INL001512,Invoice value differs from PO line,Data defect,90.00,180.00,3.0% of invoices bill a value different from the PO line
+DEF00363,invoice_line,INL001514,Invoice line without matching PO line,Data defect,POL001370,POL947286,1.0% of invoices have a line pointing to a PO line that does not exist
+DEF00364,invoice_header,INV000471,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00365,invoice_header,INV000472,Resubmitted invoice,Business exception,INV000471,INV000472,Rejected invoices are resubmitted with a -R1 reference
+DEF00366,invoice_header,INV000473,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00367,invoice_header,INV000483,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00368,invoice_header,INV000484,Resubmitted invoice,Business exception,INV000483,INV000484,Rejected invoices are resubmitted with a -R1 reference
+DEF00369,invoice_header,INV000488,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00370,invoice_header,INV000489,Resubmitted invoice,Business exception,INV000488,INV000489,Rejected invoices are resubmitted with a -R1 reference
+DEF00371,invoice_header,INV000490,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00372,invoice_header,INV000491,Resubmitted invoice,Business exception,INV000490,INV000491,Rejected invoices are resubmitted with a -R1 reference
+DEF00373,invoice_header,INV000493,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00374,invoice_header,INV000494,Resubmitted invoice,Business exception,INV000493,INV000494,Rejected invoices are resubmitted with a -R1 reference
+DEF00375,invoice_header,INV000507,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00376,invoice_header,INV000513,Potential duplicate invoice,Data defect,INV000512,INV000513,"0.8% of invoices are sent again with a new reference, same value, within 7 days"
+DEF00377,invoice_header,INV000522,Duplicate invoice reference,Data defect,INV000521,INV000522,1.0% of invoices are sent twice with the same reference
+DEF00378,invoice_header,INV000531,Duplicate invoice reference,Data defect,INV000530,INV000531,1.0% of invoices are sent twice with the same reference
+DEF00379,invoice_header,INV000532,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00380,invoice_header,INV000533,Resubmitted invoice,Business exception,INV000532,INV000533,Rejected invoices are resubmitted with a -R1 reference
+DEF00381,invoice_header,INV000547,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00382,invoice_header,INV000548,Resubmitted invoice,Business exception,INV000547,INV000548,Rejected invoices are resubmitted with a -R1 reference
+DEF00383,invoice_header,INV000549,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00384,invoice_header,INV000550,Resubmitted invoice,Business exception,INV000549,INV000550,Rejected invoices are resubmitted with a -R1 reference
+DEF00385,invoice_header,INV000555,Invoice without PO number,Data defect,PO000375,,1.0% of invoices are submitted without a PO number
+DEF00386,invoice_header,INV000555,Rejected invoice,Business exception,,Missing PO,7.0% of invoices are rejected at review
+DEF00387,invoice_header,INV000556,Resubmitted invoice,Business exception,INV000555,INV000556,Rejected invoices are resubmitted with a -R1 reference
+DEF00388,invoice_header,INV000557,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00389,invoice_header,INV000558,Resubmitted invoice,Business exception,INV000557,INV000558,Rejected invoices are resubmitted with a -R1 reference
+DEF00390,invoice_header,INV000571,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00391,invoice_header,INV000572,Resubmitted invoice,Business exception,INV000571,INV000572,Rejected invoices are resubmitted with a -R1 reference
+DEF00392,invoice_header,INV000579,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00393,invoice_header,INV000582,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00394,invoice_header,INV000583,Resubmitted invoice,Business exception,INV000582,INV000583,Rejected invoices are resubmitted with a -R1 reference
+DEF00395,invoice_header,INV000586,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00396,invoice_header,INV000587,Resubmitted invoice,Business exception,INV000586,INV000587,Rejected invoices are resubmitted with a -R1 reference
+DEF00397,invoice_header,INV000596,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00398,invoice_header,INV000597,Resubmitted invoice,Business exception,INV000596,INV000597,Rejected invoices are resubmitted with a -R1 reference
+DEF00399,invoice_header,INV000602,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00400,invoice_header,INV000603,Resubmitted invoice,Business exception,INV000602,INV000603,Rejected invoices are resubmitted with a -R1 reference
+DEF00401,invoice_line,INL002003,Invoice value differs from PO line,Data defect,90.00,100.00,3.0% of invoices bill a value different from the PO line
+DEF00402,invoice_header,INV000608,Invoice without PO number,Data defect,PO000413,,1.0% of invoices are submitted without a PO number
+DEF00403,invoice_header,INV000609,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00404,invoice_header,INV000610,Resubmitted invoice,Business exception,INV000609,INV000610,Rejected invoices are resubmitted with a -R1 reference
+DEF00405,invoice_line,INL002015,Invoice value differs from PO line,Data defect,60.00,40.00,3.0% of invoices bill a value different from the PO line
+DEF00406,invoice_header,INV000611,Rejected invoice,Business exception,,Amount mismatch,7.0% of invoices are rejected at review
+DEF00407,invoice_header,INV000612,Resubmitted invoice,Business exception,INV000611,INV000612,Rejected invoices are resubmitted with a -R1 reference
+DEF00408,invoice_line,INL002038,Invoice line without matching PO line,Data defect,POL001825,POL996526,1.0% of invoices have a line pointing to a PO line that does not exist
+DEF00409,invoice_header,INV000618,Rejected invoice,Business exception,,Unmatched PO line,7.0% of invoices are rejected at review
+DEF00410,invoice_header,INV000619,Resubmitted invoice,Business exception,INV000618,INV000619,Rejected invoices are resubmitted with a -R1 reference
+DEF00411,invoice_header,INV000620,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00412,invoice_header,INV000621,Resubmitted invoice,Business exception,INV000620,INV000621,Rejected invoices are resubmitted with a -R1 reference
+DEF00413,invoice_header,INV000625,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00414,invoice_header,INV000626,Resubmitted invoice,Business exception,INV000625,INV000626,Rejected invoices are resubmitted with a -R1 reference
+DEF00415,invoice_header,INV000633,Duplicate invoice reference,Data defect,INV000632,INV000633,1.0% of invoices are sent twice with the same reference
+DEF00416,invoice_header,INV000636,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00417,invoice_header,INV000637,Resubmitted invoice,Business exception,INV000636,INV000637,Rejected invoices are resubmitted with a -R1 reference
+DEF00418,invoice_line,INL002121,Invoice value differs from PO line,Data defect,120.00,100.00,3.0% of invoices bill a value different from the PO line
+DEF00419,invoice_header,INV000649,Duplicate invoice reference,Data defect,INV000648,INV000649,1.0% of invoices are sent twice with the same reference
+DEF00420,invoice_header,INV000650,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00421,invoice_header,INV000651,Resubmitted invoice,Business exception,INV000650,INV000651,Rejected invoices are resubmitted with a -R1 reference
+DEF00422,invoice_header,INV000660,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00423,invoice_header,INV000661,Resubmitted invoice,Business exception,INV000660,INV000661,Rejected invoices are resubmitted with a -R1 reference
+DEF00424,invoice_header,INV000677,Duplicate invoice reference,Data defect,INV000676,INV000677,1.0% of invoices are sent twice with the same reference
+DEF00425,invoice_header,INV000682,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00426,invoice_header,INV000683,Resubmitted invoice,Business exception,INV000682,INV000683,Rejected invoices are resubmitted with a -R1 reference
+DEF00427,invoice_header,INV000693,Potential duplicate invoice,Data defect,INV000692,INV000693,"0.8% of invoices are sent again with a new reference, same value, within 7 days"
+DEF00428,invoice_header,INV000701,Potential duplicate invoice,Data defect,INV000700,INV000701,"0.8% of invoices are sent again with a new reference, same value, within 7 days"
+DEF00429,invoice_header,INV000722,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00430,invoice_header,INV000723,Resubmitted invoice,Business exception,INV000722,INV000723,Rejected invoices are resubmitted with a -R1 reference
+DEF00431,invoice_line,INL002420,Invoice value differs from PO line,Data defect,60.00,150.00,3.0% of invoices bill a value different from the PO line
+DEF00432,invoice_header,INV000725,Rejected invoice,Business exception,,Amount mismatch,7.0% of invoices are rejected at review
+DEF00433,invoice_header,INV000726,Resubmitted invoice,Business exception,INV000725,INV000726,Rejected invoices are resubmitted with a -R1 reference
+DEF00434,invoice_header,INV000728,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00435,invoice_header,INV000729,Resubmitted invoice,Business exception,INV000728,INV000729,Rejected invoices are resubmitted with a -R1 reference
+DEF00436,invoice_header,INV000731,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00437,invoice_header,INV000732,Resubmitted invoice,Business exception,INV000731,INV000732,Rejected invoices are resubmitted with a -R1 reference
+DEF00438,invoice_header,INV000733,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00439,invoice_header,INV000734,Resubmitted invoice,Business exception,INV000733,INV000734,Rejected invoices are resubmitted with a -R1 reference
+DEF00440,invoice_header,INV000735,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00441,invoice_header,INV000736,Resubmitted invoice,Business exception,INV000735,INV000736,Rejected invoices are resubmitted with a -R1 reference
+DEF00442,invoice_line,INL002572,Invoice value differs from PO line,Data defect,90.00,70.00,3.0% of invoices bill a value different from the PO line
+DEF00443,invoice_header,INV000761,Rejected invoice,Business exception,,Amount mismatch,7.0% of invoices are rejected at review
+DEF00444,invoice_header,INV000762,Resubmitted invoice,Business exception,INV000761,INV000762,Rejected invoices are resubmitted with a -R1 reference
+DEF00445,invoice_header,INV000773,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00446,invoice_header,INV000774,Resubmitted invoice,Business exception,INV000773,INV000774,Rejected invoices are resubmitted with a -R1 reference
+DEF00447,invoice_header,INV000788,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00448,invoice_header,INV000789,Resubmitted invoice,Business exception,INV000788,INV000789,Rejected invoices are resubmitted with a -R1 reference
+DEF00449,invoice_header,INV000797,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00450,invoice_header,INV000798,Resubmitted invoice,Business exception,INV000797,INV000798,Rejected invoices are resubmitted with a -R1 reference
+DEF00451,invoice_header,INV000809,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00452,invoice_header,INV000810,Resubmitted invoice,Business exception,INV000809,INV000810,Rejected invoices are resubmitted with a -R1 reference
+DEF00453,invoice_line,INL002776,Invoice value differs from PO line,Data defect,90.00,100.00,3.0% of invoices bill a value different from the PO line
+DEF00454,invoice_header,INV000816,Rejected invoice,Business exception,,Amount mismatch,7.0% of invoices are rejected at review
+DEF00455,invoice_header,INV000817,Resubmitted invoice,Business exception,INV000816,INV000817,Rejected invoices are resubmitted with a -R1 reference
+DEF00456,invoice_header,INV000818,Invoice without PO number,Data defect,PO000557,,1.0% of invoices are submitted without a PO number
+DEF00457,invoice_header,INV000818,Rejected invoice,Business exception,,Missing PO,7.0% of invoices are rejected at review
+DEF00458,invoice_header,INV000819,Resubmitted invoice,Business exception,INV000818,INV000819,Rejected invoices are resubmitted with a -R1 reference
+DEF00459,invoice_line,INL002787,Invoice line without matching PO line,Data defect,POL002479,POL944359,1.0% of invoices have a line pointing to a PO line that does not exist
+DEF00460,invoice_header,INV000822,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00461,invoice_header,INV000823,Resubmitted invoice,Business exception,INV000822,INV000823,Rejected invoices are resubmitted with a -R1 reference
+DEF00462,invoice_line,INL002843,Invoice value differs from PO line,Data defect,90.00,70.00,3.0% of invoices bill a value different from the PO line
+DEF00463,invoice_header,INV000852,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00464,invoice_header,INV000853,Resubmitted invoice,Business exception,INV000852,INV000853,Rejected invoices are resubmitted with a -R1 reference
+DEF00465,invoice_line,INL002869,Invoice value differs from PO line,Data defect,60.00,90.00,3.0% of invoices bill a value different from the PO line
+DEF00466,invoice_header,INV000870,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00467,invoice_header,INV000871,Resubmitted invoice,Business exception,INV000870,INV000871,Rejected invoices are resubmitted with a -R1 reference
+DEF00468,invoice_header,INV000875,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00469,invoice_header,INV000876,Resubmitted invoice,Business exception,INV000875,INV000876,Rejected invoices are resubmitted with a -R1 reference
+DEF00470,invoice_header,INV000895,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00471,invoice_header,INV000896,Resubmitted invoice,Business exception,INV000895,INV000896,Rejected invoices are resubmitted with a -R1 reference
+DEF00472,invoice_header,INV000900,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00473,invoice_header,INV000901,Resubmitted invoice,Business exception,INV000900,INV000901,Rejected invoices are resubmitted with a -R1 reference
+DEF00474,invoice_line,INL002967,Invoice value differs from PO line,Data defect,90.00,180.00,3.0% of invoices bill a value different from the PO line
+DEF00475,invoice_header,INV000904,Rejected invoice,Business exception,,Amount mismatch,7.0% of invoices are rejected at review
+DEF00476,invoice_header,INV000905,Resubmitted invoice,Business exception,INV000904,INV000905,Rejected invoices are resubmitted with a -R1 reference
+DEF00477,invoice_line,INL003000,Invoice value differs from PO line,Data defect,60.00,40.00,3.0% of invoices bill a value different from the PO line
+DEF00478,invoice_header,INV000911,Rejected invoice,Business exception,,Amount mismatch,7.0% of invoices are rejected at review
+DEF00479,invoice_header,INV000912,Resubmitted invoice,Business exception,INV000911,INV000912,Rejected invoices are resubmitted with a -R1 reference
+DEF00480,invoice_header,INV000913,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00481,invoice_header,INV000914,Resubmitted invoice,Business exception,INV000913,INV000914,Rejected invoices are resubmitted with a -R1 reference
+DEF00482,invoice_line,INL003128,Invoice line without matching PO line,Data defect,POL002811,POL946012,1.0% of invoices have a line pointing to a PO line that does not exist
+DEF00483,invoice_header,INV000957,Potential duplicate invoice,Data defect,INV000956,INV000957,"0.8% of invoices are sent again with a new reference, same value, within 7 days"
+DEF00484,invoice_header,INV000975,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00485,invoice_header,INV000985,Potential duplicate invoice,Data defect,INV000984,INV000985,"0.8% of invoices are sent again with a new reference, same value, within 7 days"
+DEF00486,invoice_header,INV000996,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00487,invoice_header,INV000997,Resubmitted invoice,Business exception,INV000996,INV000997,Rejected invoices are resubmitted with a -R1 reference
+DEF00488,invoice_header,INV001001,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00489,invoice_header,INV001002,Resubmitted invoice,Business exception,INV001001,INV001002,Rejected invoices are resubmitted with a -R1 reference
+DEF00490,invoice_header,INV001003,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00491,invoice_header,INV001004,Resubmitted invoice,Business exception,INV001003,INV001004,Rejected invoices are resubmitted with a -R1 reference
+DEF00492,invoice_header,INV001033,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00493,invoice_header,INV001034,Resubmitted invoice,Business exception,INV001033,INV001034,Rejected invoices are resubmitted with a -R1 reference
+DEF00494,invoice_line,INL003477,Invoice line without matching PO line,Data defect,POL003132,POL976262,1.0% of invoices have a line pointing to a PO line that does not exist
+DEF00495,invoice_line,INL003488,Invoice value differs from PO line,Data defect,60.00,150.00,3.0% of invoices bill a value different from the PO line
+DEF00496,invoice_header,INV001064,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00497,invoice_header,INV001065,Resubmitted invoice,Business exception,INV001064,INV001065,Rejected invoices are resubmitted with a -R1 reference
+DEF00498,invoice_header,INV001072,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00499,invoice_header,INV001073,Resubmitted invoice,Business exception,INV001072,INV001073,Rejected invoices are resubmitted with a -R1 reference
+DEF00500,invoice_header,INV001086,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00501,invoice_header,INV001087,Resubmitted invoice,Business exception,INV001086,INV001087,Rejected invoices are resubmitted with a -R1 reference
+DEF00502,invoice_line,INL003585,Invoice line without matching PO line,Data defect,POL003234,POL914128,1.0% of invoices have a line pointing to a PO line that does not exist
+DEF00503,invoice_header,INV001090,Rejected invoice,Business exception,,Unmatched PO line,7.0% of invoices are rejected at review
+DEF00504,invoice_header,INV001091,Resubmitted invoice,Business exception,INV001090,INV001091,Rejected invoices are resubmitted with a -R1 reference
+DEF00505,invoice_line,INL003595,Invoice value differs from PO line,Data defect,60.00,40.00,3.0% of invoices bill a value different from the PO line
+DEF00506,invoice_header,INV001100,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00507,invoice_header,INV001101,Resubmitted invoice,Business exception,INV001100,INV001101,Rejected invoices are resubmitted with a -R1 reference
+DEF00508,invoice_header,INV001117,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00509,invoice_header,INV001118,Resubmitted invoice,Business exception,INV001117,INV001118,Rejected invoices are resubmitted with a -R1 reference
+DEF00510,invoice_header,INV001127,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00511,invoice_header,INV001129,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00512,invoice_header,INV001130,Resubmitted invoice,Business exception,INV001129,INV001130,Rejected invoices are resubmitted with a -R1 reference
+DEF00513,invoice_header,INV001153,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00514,invoice_header,INV001154,Resubmitted invoice,Business exception,INV001153,INV001154,Rejected invoices are resubmitted with a -R1 reference
+DEF00515,invoice_header,INV001161,Invoice without PO number,Data defect,PO000813,,1.0% of invoices are submitted without a PO number
+DEF00516,invoice_header,INV001171,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00517,invoice_header,INV001172,Resubmitted invoice,Business exception,INV001171,INV001172,Rejected invoices are resubmitted with a -R1 reference
+DEF00518,invoice_line,INL003880,Invoice line without matching PO line,Data defect,POL003509,POL961736,1.0% of invoices have a line pointing to a PO line that does not exist
+DEF00519,invoice_line,INL003888,Invoice line without matching PO line,Data defect,POL003517,POL914640,1.0% of invoices have a line pointing to a PO line that does not exist
+DEF00520,invoice_line,INL003953,Invoice value differs from PO line,Data defect,60.00,150.00,3.0% of invoices bill a value different from the PO line
+DEF00521,invoice_header,INV001208,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00522,invoice_header,INV001209,Resubmitted invoice,Business exception,INV001208,INV001209,Rejected invoices are resubmitted with a -R1 reference
+DEF00523,invoice_header,INV001210,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00524,invoice_header,INV001211,Resubmitted invoice,Business exception,INV001210,INV001211,Rejected invoices are resubmitted with a -R1 reference
+DEF00525,invoice_header,INV001235,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00526,invoice_header,INV001236,Resubmitted invoice,Business exception,INV001235,INV001236,Rejected invoices are resubmitted with a -R1 reference
+DEF00527,invoice_header,INV001241,Potential duplicate invoice,Data defect,INV001240,INV001241,"0.8% of invoices are sent again with a new reference, same value, within 7 days"
+DEF00528,invoice_header,INV001244,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00529,invoice_header,INV001245,Resubmitted invoice,Business exception,INV001244,INV001245,Rejected invoices are resubmitted with a -R1 reference
+DEF00530,invoice_header,INV001255,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00531,invoice_header,INV001256,Resubmitted invoice,Business exception,INV001255,INV001256,Rejected invoices are resubmitted with a -R1 reference
+DEF00532,invoice_header,INV001257,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00533,invoice_header,INV001258,Resubmitted invoice,Business exception,INV001257,INV001258,Rejected invoices are resubmitted with a -R1 reference
+DEF00534,invoice_header,INV001266,Duplicate invoice reference,Data defect,INV001265,INV001266,1.0% of invoices are sent twice with the same reference
+DEF00535,invoice_header,INV001271,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00536,invoice_header,INV001272,Resubmitted invoice,Business exception,INV001271,INV001272,Rejected invoices are resubmitted with a -R1 reference
+DEF00537,invoice_header,INV001276,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00538,invoice_header,INV001277,Resubmitted invoice,Business exception,INV001276,INV001277,Rejected invoices are resubmitted with a -R1 reference
+DEF00539,invoice_line,INL004180,Invoice value differs from PO line,Data defect,90.00,120.00,3.0% of invoices bill a value different from the PO line
+DEF00540,invoice_header,INV001297,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00541,invoice_header,INV001298,Resubmitted invoice,Business exception,INV001297,INV001298,Rejected invoices are resubmitted with a -R1 reference
+DEF00542,invoice_line,INL004233,Invoice value differs from PO line,Data defect,60.00,150.00,3.0% of invoices bill a value different from the PO line
+DEF00543,invoice_header,INV001302,Rejected invoice,Business exception,,Amount mismatch,7.0% of invoices are rejected at review
+DEF00544,invoice_header,INV001303,Resubmitted invoice,Business exception,INV001302,INV001303,Rejected invoices are resubmitted with a -R1 reference
+DEF00545,invoice_line,INL004256,Invoice value differs from PO line,Data defect,60.00,40.00,3.0% of invoices bill a value different from the PO line
+DEF00546,invoice_header,INV001311,Rejected invoice,Business exception,,Amount mismatch,7.0% of invoices are rejected at review
+DEF00547,invoice_header,INV001312,Resubmitted invoice,Business exception,INV001311,INV001312,Rejected invoices are resubmitted with a -R1 reference
+DEF00548,invoice_header,INV001314,Duplicate invoice reference,Data defect,INV001313,INV001314,1.0% of invoices are sent twice with the same reference
+DEF00549,invoice_header,INV001364,Invoice without PO number,Data defect,PO000958,,1.0% of invoices are submitted without a PO number
+DEF00550,invoice_header,INV001370,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00551,invoice_header,INV001371,Resubmitted invoice,Business exception,INV001370,INV001371,Rejected invoices are resubmitted with a -R1 reference
+DEF00552,invoice_header,INV001384,Duplicate invoice reference,Data defect,INV001383,INV001384,1.0% of invoices are sent twice with the same reference
+DEF00553,invoice_header,INV001388,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00554,invoice_header,INV001389,Resubmitted invoice,Business exception,INV001388,INV001389,Rejected invoices are resubmitted with a -R1 reference
+DEF00555,invoice_header,INV001399,Potential duplicate invoice,Data defect,INV001398,INV001399,"0.8% of invoices are sent again with a new reference, same value, within 7 days"
+DEF00556,invoice_header,INV001404,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00557,invoice_header,INV001405,Resubmitted invoice,Business exception,INV001404,INV001405,Rejected invoices are resubmitted with a -R1 reference
+DEF00558,invoice_header,INV001407,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00559,invoice_header,INV001408,Resubmitted invoice,Business exception,INV001407,INV001408,Rejected invoices are resubmitted with a -R1 reference
+DEF00560,invoice_line,INL004604,Invoice line without matching PO line,Data defect,POL004178,POL959723,1.0% of invoices have a line pointing to a PO line that does not exist
+DEF00561,invoice_line,INL004647,Invoice value differs from PO line,Data defect,70.00,80.00,3.0% of invoices bill a value different from the PO line
+DEF00562,invoice_header,INV001450,Duplicate invoice reference,Data defect,INV001449,INV001450,1.0% of invoices are sent twice with the same reference
+DEF00563,invoice_header,INV001460,Duplicate invoice reference,Data defect,INV001459,INV001460,1.0% of invoices are sent twice with the same reference
+DEF00564,invoice_line,INL004737,Invoice value differs from PO line,Data defect,60.00,90.00,3.0% of invoices bill a value different from the PO line
+DEF00565,invoice_line,INL004794,Invoice value differs from PO line,Data defect,90.00,120.00,3.0% of invoices bill a value different from the PO line
+DEF00566,invoice_header,INV001476,Rejected invoice,Business exception,,Amount mismatch,7.0% of invoices are rejected at review
+DEF00567,invoice_header,INV001477,Resubmitted invoice,Business exception,INV001476,INV001477,Rejected invoices are resubmitted with a -R1 reference
+DEF00568,invoice_header,INV001484,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00569,invoice_header,INV001485,Resubmitted invoice,Business exception,INV001484,INV001485,Rejected invoices are resubmitted with a -R1 reference
+DEF00570,invoice_header,INV001496,Duplicate invoice reference,Data defect,INV001495,INV001496,1.0% of invoices are sent twice with the same reference
+DEF00571,invoice_header,INV001521,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00572,invoice_header,INV001522,Resubmitted invoice,Business exception,INV001521,INV001522,Rejected invoices are resubmitted with a -R1 reference
+DEF00573,invoice_line,INL004955,Invoice value differs from PO line,Data defect,60.00,150.00,3.0% of invoices bill a value different from the PO line
+DEF00574,invoice_header,INV001536,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00575,invoice_header,INV001537,Resubmitted invoice,Business exception,INV001536,INV001537,Rejected invoices are resubmitted with a -R1 reference
+DEF00576,invoice_header,INV001551,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00577,invoice_header,INV001552,Resubmitted invoice,Business exception,INV001551,INV001552,Rejected invoices are resubmitted with a -R1 reference
+DEF00578,invoice_header,INV001558,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00579,invoice_header,INV001559,Resubmitted invoice,Business exception,INV001558,INV001559,Rejected invoices are resubmitted with a -R1 reference
+DEF00580,invoice_header,INV001560,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00581,invoice_header,INV001561,Resubmitted invoice,Business exception,INV001560,INV001561,Rejected invoices are resubmitted with a -R1 reference
+DEF00582,invoice_line,INL005144,Invoice line without matching PO line,Data defect,POL004706,POL963606,1.0% of invoices have a line pointing to a PO line that does not exist
+DEF00583,invoice_line,INL005179,Invoice value differs from PO line,Data defect,100.00,190.00,3.0% of invoices bill a value different from the PO line
+DEF00584,invoice_header,INV001588,Rejected invoice,Business exception,,Amount mismatch,7.0% of invoices are rejected at review
+DEF00585,invoice_header,INV001589,Resubmitted invoice,Business exception,INV001588,INV001589,Rejected invoices are resubmitted with a -R1 reference
+DEF00586,invoice_header,INV001593,Invoice without PO number,Data defect,PO001132,,1.0% of invoices are submitted without a PO number
+DEF00587,invoice_header,INV001593,Rejected invoice,Business exception,,Missing PO,7.0% of invoices are rejected at review
+DEF00588,invoice_header,INV001594,Resubmitted invoice,Business exception,INV001593,INV001594,Rejected invoices are resubmitted with a -R1 reference
+DEF00589,invoice_line,INL005229,Invoice line without matching PO line,Data defect,POL004784,POL971890,1.0% of invoices have a line pointing to a PO line that does not exist
+DEF00590,invoice_header,INV001603,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00591,invoice_header,INV001604,Resubmitted invoice,Business exception,INV001603,INV001604,Rejected invoices are resubmitted with a -R1 reference
+DEF00592,invoice_header,INV001608,Duplicate invoice reference,Data defect,INV001607,INV001608,1.0% of invoices are sent twice with the same reference
+DEF00593,invoice_header,INV001616,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00594,invoice_header,INV001617,Resubmitted invoice,Business exception,INV001616,INV001617,Rejected invoices are resubmitted with a -R1 reference
+DEF00595,invoice_header,INV001620,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00596,invoice_header,INV001621,Resubmitted invoice,Business exception,INV001620,INV001621,Rejected invoices are resubmitted with a -R1 reference
+DEF00597,invoice_header,INV001623,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00598,invoice_header,INV001626,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00599,invoice_header,INV001627,Resubmitted invoice,Business exception,INV001626,INV001627,Rejected invoices are resubmitted with a -R1 reference
+DEF00600,invoice_header,INV001646,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00601,invoice_header,INV001647,Resubmitted invoice,Business exception,INV001646,INV001647,Rejected invoices are resubmitted with a -R1 reference
+DEF00602,invoice_header,INV001651,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00603,invoice_header,INV001652,Resubmitted invoice,Business exception,INV001651,INV001652,Rejected invoices are resubmitted with a -R1 reference
+DEF00604,invoice_header,INV001653,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00605,invoice_header,INV001654,Resubmitted invoice,Business exception,INV001653,INV001654,Rejected invoices are resubmitted with a -R1 reference
+DEF00606,invoice_header,INV001655,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00607,invoice_header,INV001656,Resubmitted invoice,Business exception,INV001655,INV001656,Rejected invoices are resubmitted with a -R1 reference
+DEF00608,invoice_header,INV001660,Duplicate invoice reference,Data defect,INV001659,INV001660,1.0% of invoices are sent twice with the same reference
+DEF00609,invoice_header,INV001668,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00610,invoice_header,INV001669,Resubmitted invoice,Business exception,INV001668,INV001669,Rejected invoices are resubmitted with a -R1 reference
+DEF00611,invoice_header,INV001675,Rejected invoice,Business exception,,Incorrect property details,7.0% of invoices are rejected at review
+DEF00612,invoice_header,INV001676,Resubmitted invoice,Business exception,INV001675,INV001676,Rejected invoices are resubmitted with a -R1 reference
+DEF00613,invoice_header,INV001678,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00614,invoice_header,INV001679,Resubmitted invoice,Business exception,INV001678,INV001679,Rejected invoices are resubmitted with a -R1 reference
+DEF00615,invoice_header,INV001693,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00616,invoice_header,INV001694,Resubmitted invoice,Business exception,INV001693,INV001694,Rejected invoices are resubmitted with a -R1 reference
+DEF00617,invoice_line,INL005609,Invoice value differs from PO line,Data defect,60.00,90.00,3.0% of invoices bill a value different from the PO line
+DEF00618,invoice_header,INV001708,Rejected invoice,Business exception,,Amount mismatch,7.0% of invoices are rejected at review
+DEF00619,invoice_header,INV001709,Resubmitted invoice,Business exception,INV001708,INV001709,Rejected invoices are resubmitted with a -R1 reference
+DEF00620,invoice_header,INV001715,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00621,invoice_header,INV001716,Resubmitted invoice,Business exception,INV001715,INV001716,Rejected invoices are resubmitted with a -R1 reference
+DEF00622,invoice_header,INV001719,Potential duplicate invoice,Data defect,INV001718,INV001719,"0.8% of invoices are sent again with a new reference, same value, within 7 days"
+DEF00623,invoice_header,INV001721,Rejected invoice,Business exception,,Missing documentation,7.0% of invoices are rejected at review
+DEF00624,invoice_header,INV001722,Resubmitted invoice,Business exception,INV001721,INV001722,Rejected invoices are resubmitted with a -R1 reference
+DEF00625,invoice_line,INL005660,Invoice value differs from PO line,Data defect,60.00,40.00,3.0% of invoices bill a value different from the PO line
+DEF00626,invoice_header,INV001733,Rejected invoice,Business exception,,Amount mismatch,7.0% of invoices are rejected at review
+DEF00627,invoice_header,INV001734,Resubmitted invoice,Business exception,INV001733,INV001734,Rejected invoices are resubmitted with a -R1 reference
+DEF00628,invoice_line,INL005680,Invoice value differs from PO line,Data defect,60.00,40.00,3.0% of invoices bill a value different from the PO line
+DEF00629,invoice_header,INV001741,Rejected invoice,Business exception,,Amount mismatch,7.0% of invoices are rejected at review
+DEF00630,invoice_header,INV001742,Resubmitted invoice,Business exception,INV001741,INV001742,Rejected invoices are resubmitted with a -R1 reference
+DEF00631,invoice_header,INV001752,Duplicate invoice reference,Data defect,INV001751,INV001752,1.0% of invoices are sent twice with the same reference
+DEF00632,invoice_header,INV001768,Rejected invoice,Business exception,,Wrong vendor details,7.0% of invoices are rejected at review
+DEF00633,invoice_header,INV001769,Resubmitted invoice,Business exception,INV001768,INV001769,Rejected invoices are resubmitted with a -R1 reference
+DEF00634,invoice_header,INV000011,Partial payment,Business exception,120.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00635,invoice_header,INV000012,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00636,invoice_header,INV000037,Partial payment,Business exception,90.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00637,invoice_header,INV000053,Partial payment,Business exception,210.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00638,invoice_header,INV000061,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00639,invoice_header,INV000078,Partial payment,Business exception,570.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00640,invoice_header,INV000079,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00641,invoice_header,INV000089,Partial payment,Business exception,570.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00642,invoice_header,INV000100,Partial payment,Business exception,120.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00643,invoice_header,INV000124,Partial payment,Business exception,390.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00644,invoice_header,INV000129,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00645,invoice_header,INV000158,Partial payment,Business exception,360.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00646,invoice_header,INV000199,Partial payment,Business exception,390.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00647,invoice_header,INV000220,Partial payment,Business exception,420.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00648,invoice_header,INV000222,Partial payment,Business exception,90.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00649,invoice_header,INV000279,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00650,invoice_header,INV000307,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00651,invoice_header,INV000316,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00652,invoice_header,INV000347,Partial payment,Business exception,300.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00653,invoice_header,INV000349,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00654,invoice_header,INV000365,Partial payment,Business exception,120.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00655,invoice_header,INV000369,Partial payment,Business exception,360.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00656,invoice_header,INV000422,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00657,invoice_header,INV000428,Partial payment,Business exception,330.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00658,invoice_header,INV000432,Partial payment,Business exception,480.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00659,invoice_header,INV000433,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00660,invoice_header,INV000443,Partial payment,Business exception,330.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00661,invoice_header,INV000447,Partial payment,Business exception,570.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00662,invoice_header,INV000451,Partial payment,Business exception,90.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00663,invoice_header,INV000502,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00664,invoice_header,INV000510,Partial payment,Business exception,330.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00665,invoice_header,INV000513,Partial payment,Business exception,330.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00666,invoice_header,INV000519,Partial payment,Business exception,360.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00667,invoice_header,INV000530,Partial payment,Business exception,120.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00668,invoice_header,INV000564,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00669,invoice_header,INV000598,Partial payment,Business exception,240.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00670,invoice_header,INV000630,Partial payment,Business exception,420.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00671,invoice_header,INV000637,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00672,invoice_header,INV000643,Partial payment,Business exception,240.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00673,invoice_header,INV000669,Partial payment,Business exception,480.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00674,invoice_header,INV000679,Partial payment,Business exception,150.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00675,invoice_header,INV000686,Partial payment,Business exception,90.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00676,invoice_header,INV000704,Partial payment,Business exception,360.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00677,invoice_header,INV000714,Partial payment,Business exception,90.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00678,invoice_header,INV000720,Partial payment,Business exception,40.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00679,invoice_header,INV000726,Partial payment,Business exception,540.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00680,invoice_header,INV000727,Partial payment,Business exception,240.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00681,invoice_header,INV000738,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00682,invoice_header,INV000746,Partial payment,Business exception,570.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00683,invoice_header,INV000749,Partial payment,Business exception,160.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00684,invoice_header,INV000754,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00685,invoice_header,INV000759,Partial payment,Business exception,600.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00686,invoice_header,INV000766,Partial payment,Business exception,240.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00687,invoice_header,INV000787,Partial payment,Business exception,360.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00688,invoice_header,INV000793,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00689,invoice_header,INV000800,Partial payment,Business exception,450.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00690,invoice_header,INV000802,Partial payment,Business exception,210.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00691,invoice_header,INV000826,Partial payment,Business exception,480.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00692,invoice_header,INV000845,Partial payment,Business exception,120.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00693,invoice_header,INV000853,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00694,invoice_header,INV000861,Partial payment,Business exception,100.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00695,invoice_header,INV000886,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00696,invoice_header,INV000888,Partial payment,Business exception,150.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00697,invoice_header,INV000890,Partial payment,Business exception,150.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00698,invoice_header,INV000916,Partial payment,Business exception,330.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00699,invoice_header,INV000925,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00700,invoice_header,INV000945,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00701,invoice_header,INV000947,Partial payment,Business exception,300.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00702,invoice_header,INV000966,Partial payment,Business exception,120.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00703,invoice_header,INV000995,Partial payment,Business exception,300.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00704,invoice_header,INV001000,Partial payment,Business exception,150.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00705,invoice_header,INV001012,Partial payment,Business exception,90.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00706,invoice_header,INV001034,Partial payment,Business exception,510.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00707,invoice_header,INV001035,Partial payment,Business exception,240.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00708,invoice_header,INV001052,Partial payment,Business exception,90.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00709,invoice_header,INV001061,Partial payment,Business exception,360.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00710,invoice_header,INV001077,Partial payment,Business exception,420.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00711,invoice_header,INV001082,Partial payment,Business exception,450.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00712,invoice_header,INV001089,Partial payment,Business exception,120.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00713,invoice_header,INV001105,Partial payment,Business exception,270.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00714,invoice_header,INV001133,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00715,invoice_header,INV001137,Partial payment,Business exception,90.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00716,invoice_header,INV001140,Partial payment,Business exception,570.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00717,invoice_header,INV001142,Partial payment,Business exception,150.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00718,invoice_header,INV001150,Partial payment,Business exception,390.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00719,invoice_header,INV001152,Partial payment,Business exception,120.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00720,invoice_header,INV001180,Partial payment,Business exception,330.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00721,invoice_header,INV001183,Partial payment,Business exception,120.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00722,invoice_header,INV001191,Partial payment,Business exception,150.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00723,invoice_header,INV001202,Partial payment,Business exception,90.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00724,invoice_header,INV001212,Partial payment,Business exception,450.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00725,invoice_header,INV001215,Partial payment,Business exception,420.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00726,invoice_header,INV001221,Partial payment,Business exception,480.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00727,invoice_header,INV001222,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00728,invoice_header,INV001237,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00729,invoice_header,INV001251,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00730,invoice_header,INV001262,Partial payment,Business exception,240.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00731,invoice_header,INV001269,Partial payment,Business exception,120.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00732,invoice_header,INV001272,Partial payment,Business exception,240.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00733,invoice_header,INV001279,Partial payment,Business exception,270.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00734,invoice_header,INV001292,Partial payment,Business exception,150.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00735,invoice_header,INV001294,Partial payment,Business exception,420.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00736,invoice_header,INV001314,Partial payment,Business exception,210.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00737,invoice_header,INV001358,Partial payment,Business exception,180.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00738,invoice_header,INV001382,Partial payment,Business exception,300.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00739,invoice_header,INV001400,Partial payment,Business exception,150.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00740,invoice_header,INV001402,Partial payment,Business exception,90.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00741,invoice_header,INV001448,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00742,invoice_header,INV001450,Partial payment,Business exception,180.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00743,invoice_header,INV001462,Partial payment,Business exception,90.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00744,invoice_header,INV001477,Partial payment,Business exception,90.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00745,invoice_header,INV001499,Partial payment,Business exception,90.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00746,invoice_header,INV001506,Partial payment,Business exception,90.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00747,invoice_header,INV001507,Partial payment,Business exception,150.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00748,invoice_header,INV001509,Partial payment,Business exception,420.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00749,invoice_header,INV001523,Partial payment,Business exception,240.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00750,invoice_header,INV001525,Partial payment,Business exception,270.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00751,invoice_header,INV001539,Partial payment,Business exception,390.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00752,invoice_header,INV001542,Partial payment,Business exception,600.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00753,invoice_header,INV001546,Partial payment,Business exception,510.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00754,invoice_header,INV001553,Partial payment,Business exception,420.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00755,invoice_header,INV001570,Partial payment,Business exception,600.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00756,invoice_header,INV001591,Partial payment,Business exception,270.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00757,invoice_header,INV001596,Partial payment,Business exception,270.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00758,invoice_header,INV001597,Partial payment,Business exception,420.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00759,invoice_header,INV001598,Partial payment,Business exception,570.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00760,invoice_header,INV001640,Partial payment,Business exception,360.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00761,invoice_header,INV001641,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00762,invoice_header,INV001658,Partial payment,Business exception,150.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00763,invoice_header,INV001685,Partial payment,Business exception,90.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00764,invoice_header,INV001705,Partial payment,Business exception,90.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00765,invoice_header,INV001711,Partial payment,Business exception,600.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00766,invoice_header,INV001716,Partial payment,Business exception,60.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00767,invoice_header,INV001740,Partial payment,Business exception,390.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00768,invoice_header,INV001752,Partial payment,Business exception,150.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00769,invoice_header,INV001754,Partial payment,Business exception,120.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00770,invoice_header,INV001762,Partial payment,Business exception,600.00,Paid in 2 parts,8.0% of approved invoices are paid in two parts
+DEF00771,installation_transaction,T001926,Wrong rebate,Data defect,60.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00772,installation_transaction,T000825,Wrong rebate,Data defect,90.00,60.00,2.0% of installations have a wrong recorded rebate
+DEF00773,installation_transaction,T002771,Wrong rebate,Data defect,0.00,120.00,2.0% of installations have a wrong recorded rebate
+DEF00774,installation_transaction,T003826,Wrong rebate,Data defect,90.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00775,installation_transaction,T004192,Wrong rebate,Data defect,90.00,0.00,2.0% of installations have a wrong recorded rebate
+DEF00776,installation_transaction,T000699,Wrong rebate,Data defect,60.00,70.00,2.0% of installations have a wrong recorded rebate
+DEF00777,installation_transaction,T005945,Wrong rebate,Data defect,60.00,120.00,2.0% of installations have a wrong recorded rebate
+DEF00778,installation_transaction,T002971,Wrong rebate,Data defect,90.00,60.00,2.0% of installations have a wrong recorded rebate
+DEF00779,installation_transaction,T001136,Wrong rebate,Data defect,60.00,90.00,2.0% of installations have a wrong recorded rebate
+DEF00780,installation_transaction,T003461,Wrong rebate,Data defect,60.00,70.00,2.0% of installations have a wrong recorded rebate
+DEF00781,installation_transaction,T000490,Wrong rebate,Data defect,0.00,120.00,2.0% of installations have a wrong recorded rebate
+DEF00782,installation_transaction,T003286,Wrong rebate,Data defect,60.00,70.00,2.0% of installations have a wrong recorded rebate
+DEF00783,installation_transaction,T002588,Wrong rebate,Data defect,0.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00784,installation_transaction,T002092,Wrong rebate,Data defect,90.00,120.00,2.0% of installations have a wrong recorded rebate
+DEF00785,installation_transaction,T005056,Wrong rebate,Data defect,60.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00786,installation_transaction,T000285,Wrong rebate,Data defect,60.00,70.00,2.0% of installations have a wrong recorded rebate
+DEF00787,installation_transaction,T000389,Wrong rebate,Data defect,0.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00788,installation_transaction,T001853,Wrong rebate,Data defect,60.00,120.00,2.0% of installations have a wrong recorded rebate
+DEF00789,installation_transaction,T004573,Wrong rebate,Data defect,60.00,0.00,2.0% of installations have a wrong recorded rebate
+DEF00790,installation_transaction,T005089,Wrong rebate,Data defect,60.00,120.00,2.0% of installations have a wrong recorded rebate
+DEF00791,installation_transaction,T000932,Wrong rebate,Data defect,90.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00792,installation_transaction,T000348,Wrong rebate,Data defect,60.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00793,installation_transaction,T003736,Wrong rebate,Data defect,60.00,70.00,2.0% of installations have a wrong recorded rebate
+DEF00794,installation_transaction,T005181,Wrong rebate,Data defect,0.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00795,installation_transaction,T002368,Wrong rebate,Data defect,60.00,0.00,2.0% of installations have a wrong recorded rebate
+DEF00796,installation_transaction,T002154,Wrong rebate,Data defect,90.00,100.00,2.0% of installations have a wrong recorded rebate
+DEF00797,installation_transaction,T003124,Wrong rebate,Data defect,0.00,10.00,2.0% of installations have a wrong recorded rebate
+DEF00798,installation_transaction,T003714,Wrong rebate,Data defect,90.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00799,installation_transaction,T005124,Wrong rebate,Data defect,60.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00800,installation_transaction,T003021,Wrong rebate,Data defect,60.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00801,installation_transaction,T005769,Wrong rebate,Data defect,60.00,90.00,2.0% of installations have a wrong recorded rebate
+DEF00802,installation_transaction,T005092,Wrong rebate,Data defect,90.00,100.00,2.0% of installations have a wrong recorded rebate
+DEF00803,installation_transaction,T003624,Wrong rebate,Data defect,0.00,60.00,2.0% of installations have a wrong recorded rebate
+DEF00804,installation_transaction,T000674,Wrong rebate,Data defect,60.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00805,installation_transaction,T002523,Wrong rebate,Data defect,0.00,120.00,2.0% of installations have a wrong recorded rebate
+DEF00806,installation_transaction,T004087,Wrong rebate,Data defect,90.00,100.00,2.0% of installations have a wrong recorded rebate
+DEF00807,installation_transaction,T005238,Wrong rebate,Data defect,60.00,70.00,2.0% of installations have a wrong recorded rebate
+DEF00808,installation_transaction,T003883,Wrong rebate,Data defect,60.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00809,installation_transaction,T004489,Wrong rebate,Data defect,60.00,0.00,2.0% of installations have a wrong recorded rebate
+DEF00810,installation_transaction,T000738,Wrong rebate,Data defect,60.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00811,installation_transaction,T005476,Wrong rebate,Data defect,90.00,100.00,2.0% of installations have a wrong recorded rebate
+DEF00812,installation_transaction,T002472,Wrong rebate,Data defect,90.00,100.00,2.0% of installations have a wrong recorded rebate
+DEF00813,installation_transaction,T003597,Wrong rebate,Data defect,60.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00814,installation_transaction,T004790,Wrong rebate,Data defect,90.00,100.00,2.0% of installations have a wrong recorded rebate
+DEF00815,installation_transaction,T005427,Wrong rebate,Data defect,60.00,70.00,2.0% of installations have a wrong recorded rebate
+DEF00816,installation_transaction,T000009,Wrong rebate,Data defect,60.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00817,installation_transaction,T001278,Wrong rebate,Data defect,60.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00818,installation_transaction,T002062,Wrong rebate,Data defect,60.00,0.00,2.0% of installations have a wrong recorded rebate
+DEF00819,installation_transaction,T002054,Wrong rebate,Data defect,90.00,60.00,2.0% of installations have a wrong recorded rebate
+DEF00820,installation_transaction,T000081,Wrong rebate,Data defect,90.00,60.00,2.0% of installations have a wrong recorded rebate
+DEF00821,installation_transaction,T002860,Wrong rebate,Data defect,60.00,0.00,2.0% of installations have a wrong recorded rebate
+DEF00822,installation_transaction,T001383,Wrong rebate,Data defect,90.00,100.00,2.0% of installations have a wrong recorded rebate
+DEF00823,installation_transaction,T000650,Wrong rebate,Data defect,90.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00824,installation_transaction,T004010,Wrong rebate,Data defect,60.00,90.00,2.0% of installations have a wrong recorded rebate
+DEF00825,installation_transaction,T004675,Wrong rebate,Data defect,60.00,90.00,2.0% of installations have a wrong recorded rebate
+DEF00826,installation_transaction,T003025,Wrong rebate,Data defect,90.00,120.00,2.0% of installations have a wrong recorded rebate
+DEF00827,installation_transaction,T005263,Wrong rebate,Data defect,60.00,90.00,2.0% of installations have a wrong recorded rebate
+DEF00828,installation_transaction,T004528,Wrong rebate,Data defect,90.00,60.00,2.0% of installations have a wrong recorded rebate
+DEF00829,installation_transaction,T001717,Wrong rebate,Data defect,90.00,100.00,2.0% of installations have a wrong recorded rebate
+DEF00830,installation_transaction,T005973,Wrong rebate,Data defect,60.00,120.00,2.0% of installations have a wrong recorded rebate
+DEF00831,installation_transaction,T001271,Wrong rebate,Data defect,90.00,100.00,2.0% of installations have a wrong recorded rebate
+DEF00832,installation_transaction,T001156,Wrong rebate,Data defect,90.00,100.00,2.0% of installations have a wrong recorded rebate
+DEF00833,installation_transaction,T000095,Wrong rebate,Data defect,60.00,120.00,2.0% of installations have a wrong recorded rebate
+DEF00834,installation_transaction,T003874,Wrong rebate,Data defect,90.00,100.00,2.0% of installations have a wrong recorded rebate
+DEF00835,installation_transaction,T005309,Wrong rebate,Data defect,0.00,60.00,2.0% of installations have a wrong recorded rebate
+DEF00836,installation_transaction,T003749,Wrong rebate,Data defect,60.00,70.00,2.0% of installations have a wrong recorded rebate
+DEF00837,installation_transaction,T002374,Wrong rebate,Data defect,90.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00838,installation_transaction,T004270,Wrong rebate,Data defect,90.00,100.00,2.0% of installations have a wrong recorded rebate
+DEF00839,installation_transaction,T005487,Wrong rebate,Data defect,90.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00840,installation_transaction,T001049,Wrong rebate,Data defect,60.00,120.00,2.0% of installations have a wrong recorded rebate
+DEF00841,installation_transaction,T000596,Wrong rebate,Data defect,90.00,120.00,2.0% of installations have a wrong recorded rebate
+DEF00842,installation_transaction,T005635,Wrong rebate,Data defect,90.00,0.00,2.0% of installations have a wrong recorded rebate
+DEF00843,installation_transaction,T001111,Wrong rebate,Data defect,60.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00844,installation_transaction,T003109,Wrong rebate,Data defect,60.00,90.00,2.0% of installations have a wrong recorded rebate
+DEF00845,installation_transaction,T004097,Wrong rebate,Data defect,60.00,70.00,2.0% of installations have a wrong recorded rebate
+DEF00846,installation_transaction,T000290,Wrong rebate,Data defect,60.00,70.00,2.0% of installations have a wrong recorded rebate
+DEF00847,installation_transaction,T001294,Wrong rebate,Data defect,90.00,0.00,2.0% of installations have a wrong recorded rebate
+DEF00848,installation_transaction,T003211,Wrong rebate,Data defect,90.00,60.00,2.0% of installations have a wrong recorded rebate
+DEF00849,installation_transaction,T002939,Wrong rebate,Data defect,60.00,70.00,2.0% of installations have a wrong recorded rebate
+DEF00850,installation_transaction,T004642,Wrong rebate,Data defect,90.00,60.00,2.0% of installations have a wrong recorded rebate
+DEF00851,installation_transaction,T000179,Wrong rebate,Data defect,60.00,90.00,2.0% of installations have a wrong recorded rebate
+DEF00852,installation_transaction,T005454,Wrong rebate,Data defect,60.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00853,installation_transaction,T005701,Wrong rebate,Data defect,60.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00854,installation_transaction,T000862,Wrong rebate,Data defect,90.00,60.00,2.0% of installations have a wrong recorded rebate
+DEF00855,installation_transaction,T003770,Wrong rebate,Data defect,60.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00856,installation_transaction,T002570,Wrong rebate,Data defect,60.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00857,installation_transaction,T005495,Wrong rebate,Data defect,60.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00858,installation_transaction,T004600,Wrong rebate,Data defect,90.00,100.00,2.0% of installations have a wrong recorded rebate
+DEF00859,installation_transaction,T003402,Wrong rebate,Data defect,60.00,70.00,2.0% of installations have a wrong recorded rebate
+DEF00860,installation_transaction,T001719,Wrong rebate,Data defect,60.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00861,installation_transaction,T004301,Wrong rebate,Data defect,60.00,120.00,2.0% of installations have a wrong recorded rebate
+DEF00862,installation_transaction,T003662,Wrong rebate,Data defect,60.00,120.00,2.0% of installations have a wrong recorded rebate
+DEF00863,installation_transaction,T004360,Wrong rebate,Data defect,90.00,0.00,2.0% of installations have a wrong recorded rebate
+DEF00864,installation_transaction,T002807,Wrong rebate,Data defect,90.00,0.00,2.0% of installations have a wrong recorded rebate
+DEF00865,installation_transaction,T001559,Wrong rebate,Data defect,60.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00866,installation_transaction,T004993,Wrong rebate,Data defect,60.00,120.00,2.0% of installations have a wrong recorded rebate
+DEF00867,installation_transaction,T004488,Wrong rebate,Data defect,90.00,100.00,2.0% of installations have a wrong recorded rebate
+DEF00868,installation_transaction,T005205,Wrong rebate,Data defect,60.00,0.00,2.0% of installations have a wrong recorded rebate
+DEF00869,installation_transaction,T000386,Wrong rebate,Data defect,90.00,60.00,2.0% of installations have a wrong recorded rebate
+DEF00870,installation_transaction,T003284,Wrong rebate,Data defect,60.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00871,installation_transaction,T003861,Wrong rebate,Data defect,60.00,120.00,2.0% of installations have a wrong recorded rebate
+DEF00872,installation_transaction,T004757,Wrong rebate,Data defect,0.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00873,installation_transaction,T001107,Wrong rebate,Data defect,60.00,90.00,2.0% of installations have a wrong recorded rebate
+DEF00874,installation_transaction,T002097,Wrong rebate,Data defect,60.00,0.00,2.0% of installations have a wrong recorded rebate
+DEF00875,installation_transaction,T004484,Wrong rebate,Data defect,90.00,60.00,2.0% of installations have a wrong recorded rebate
+DEF00876,installation_transaction,T000964,Wrong rebate,Data defect,90.00,120.00,2.0% of installations have a wrong recorded rebate
+DEF00877,installation_transaction,T005048,Wrong rebate,Data defect,0.00,60.00,2.0% of installations have a wrong recorded rebate
+DEF00878,installation_transaction,T003488,Wrong rebate,Data defect,60.00,90.00,2.0% of installations have a wrong recorded rebate
+DEF00879,installation_transaction,T003411,Wrong rebate,Data defect,60.00,0.00,2.0% of installations have a wrong recorded rebate
+DEF00880,installation_transaction,T004414,Wrong rebate,Data defect,60.00,120.00,2.0% of installations have a wrong recorded rebate
+DEF00881,installation_transaction,T002532,Wrong rebate,Data defect,60.00,70.00,2.0% of installations have a wrong recorded rebate
+DEF00882,installation_transaction,T005954,Wrong rebate,Data defect,60.00,90.00,2.0% of installations have a wrong recorded rebate
+DEF00883,installation_transaction,T001268,Wrong rebate,Data defect,90.00,60.00,2.0% of installations have a wrong recorded rebate
+DEF00884,installation_transaction,T004966,Wrong rebate,Data defect,60.00,120.00,2.0% of installations have a wrong recorded rebate
+DEF00885,installation_transaction,T001211,Wrong rebate,Data defect,60.00,45.00,2.0% of installations have a wrong recorded rebate
+DEF00886,installation_transaction,T001982,Wrong rebate,Data defect,60.00,0.00,2.0% of installations have a wrong recorded rebate
+DEF00887,installation_transaction,T004676,Wrong rebate,Data defect,90.00,60.00,2.0% of installations have a wrong recorded rebate
+DEF00888,installation_transaction,T000634,Wrong rebate,Data defect,90.00,120.00,2.0% of installations have a wrong recorded rebate
+DEF00889,installation_transaction,T001435,Wrong rebate,Data defect,0.00,10.00,2.0% of installations have a wrong recorded rebate
+DEF00890,installation_transaction,T001408,Wrong rebate,Data defect,0.00,60.00,2.0% of installations have a wrong recorded rebate
+DEF00891,installation_transaction,T002941,Missing vendor,Data defect,V007,,0.4% of installations have no vendor
+DEF00892,installation_transaction,T004230,Missing vendor,Data defect,V003,,0.4% of installations have no vendor
+DEF00893,installation_transaction,T005794,Missing vendor,Data defect,V003,,0.4% of installations have no vendor
+DEF00894,installation_transaction,T000457,Missing vendor,Data defect,V003,,0.4% of installations have no vendor
+DEF00895,installation_transaction,T003639,Missing vendor,Data defect,V007,,0.4% of installations have no vendor
+DEF00896,installation_transaction,T002713,Missing vendor,Data defect,V032,,0.4% of installations have no vendor
+DEF00897,installation_transaction,T003555,Missing vendor,Data defect,V016,,0.4% of installations have no vendor
+DEF00898,installation_transaction,T002057,Missing vendor,Data defect,V004,,0.4% of installations have no vendor
+DEF00899,installation_transaction,T001474,Missing vendor,Data defect,V007,,0.4% of installations have no vendor
+DEF00900,installation_transaction,T000263,Missing vendor,Data defect,V007,,0.4% of installations have no vendor
+DEF00901,installation_transaction,T000209,Missing vendor,Data defect,V029,,0.4% of installations have no vendor
+DEF00902,installation_transaction,T001831,Missing vendor,Data defect,V035,,0.4% of installations have no vendor
+DEF00903,installation_transaction,T003847,Missing vendor,Data defect,V003,,0.4% of installations have no vendor
+DEF00904,installation_transaction,T002476,Missing vendor,Data defect,V029,,0.4% of installations have no vendor
+DEF00905,installation_transaction,T002997,Missing vendor,Data defect,V007,,0.4% of installations have no vendor
+DEF00906,installation_transaction,T001215,Missing vendor,Data defect,V008,,0.4% of installations have no vendor
+DEF00907,installation_transaction,T000517,Missing vendor,Data defect,V022,,0.4% of installations have no vendor
+DEF00908,installation_transaction,T005824,Missing vendor,Data defect,V032,,0.4% of installations have no vendor
+DEF00909,installation_transaction,T005293,Missing vendor,Data defect,V007,,0.4% of installations have no vendor
+DEF00910,installation_transaction,T005375,Missing vendor,Data defect,V022,,0.4% of installations have no vendor
+DEF00911,installation_transaction,T000847,Missing vendor,Data defect,V007,,0.4% of installations have no vendor
+DEF00912,installation_transaction,T002347,Missing vendor,Data defect,V032,,0.4% of installations have no vendor
+DEF00913,installation_transaction,T004167,Missing vendor,Data defect,V032,,0.4% of installations have no vendor
+DEF00914,installation_transaction,T005007,Missing vendor,Data defect,V010,,0.4% of installations have no vendor
+DEF00915,installation_transaction,T000425,Missing project code,Data defect,P07,,0.4% of installations have no project code
+DEF00916,installation_transaction,T004730,Missing project code,Data defect,P05,,0.4% of installations have no project code
+DEF00917,installation_transaction,T000682,Missing project code,Data defect,P03,,0.4% of installations have no project code
+DEF00918,installation_transaction,T002933,Missing project code,Data defect,P04,,0.4% of installations have no project code
+DEF00919,installation_transaction,T004329,Missing project code,Data defect,P04,,0.4% of installations have no project code
+DEF00920,installation_transaction,T005379,Missing project code,Data defect,P04,,0.4% of installations have no project code
+DEF00921,installation_transaction,T005128,Missing project code,Data defect,P03,,0.4% of installations have no project code
+DEF00922,installation_transaction,T001836,Missing project code,Data defect,P04,,0.4% of installations have no project code
+DEF00923,installation_transaction,T004798,Missing project code,Data defect,P06,,0.4% of installations have no project code
+DEF00924,installation_transaction,T001194,Missing project code,Data defect,P05,,0.4% of installations have no project code
+DEF00925,installation_transaction,T005784,Missing project code,Data defect,P01,,0.4% of installations have no project code
+DEF00926,installation_transaction,T000272,Missing project code,Data defect,P08,,0.4% of installations have no project code
+DEF00927,installation_transaction,T005115,Missing project code,Data defect,P06,,0.4% of installations have no project code
+DEF00928,installation_transaction,T001441,Missing project code,Data defect,P07,,0.4% of installations have no project code
+DEF00929,installation_transaction,T001384,Missing project code,Data defect,P05,,0.4% of installations have no project code
+DEF00930,installation_transaction,T003912,Missing project code,Data defect,P06,,0.4% of installations have no project code
+DEF00931,installation_transaction,T000692,Missing project code,Data defect,P07,,0.4% of installations have no project code
+DEF00932,installation_transaction,T003744,Missing project code,Data defect,P02,,0.4% of installations have no project code
+DEF00933,installation_transaction,T001438,Missing project code,Data defect,P02,,0.4% of installations have no project code
+DEF00934,installation_transaction,T002584,Missing project code,Data defect,P06,,0.4% of installations have no project code
+DEF00935,installation_transaction,T002169,Missing project code,Data defect,P04,,0.4% of installations have no project code
+DEF00936,installation_transaction,T001306,Missing project code,Data defect,P03,,0.4% of installations have no project code
+DEF00937,installation_transaction,T001153,Missing project code,Data defect,P02,,0.4% of installations have no project code
+DEF00938,installation_transaction,T002018,Missing project code,Data defect,P02,,0.4% of installations have no project code
+DEF00939,installation_transaction,T001095,Invalid property type,Data defect,Flat,Bungalow,0.4% of installations have an invalid property type
+DEF00940,installation_transaction,T005649,Invalid property type,Data defect,House,Flt,0.4% of installations have an invalid property type
+DEF00941,installation_transaction,T002078,Invalid property type,Data defect,Flat,Flt,0.4% of installations have an invalid property type
+DEF00942,installation_transaction,T003154,Invalid property type,Data defect,Flat,Unknown,0.4% of installations have an invalid property type
+DEF00943,installation_transaction,T005403,Invalid property type,Data defect,Flat,house,0.4% of installations have an invalid property type
+DEF00944,installation_transaction,T005323,Invalid property type,Data defect,House,Bungalow,0.4% of installations have an invalid property type
+DEF00945,installation_transaction,T001455,Invalid property type,Data defect,Flat,Unknown,0.4% of installations have an invalid property type
+DEF00946,installation_transaction,T003830,Invalid property type,Data defect,House,Unknown,0.4% of installations have an invalid property type
+DEF00947,installation_transaction,T004894,Invalid property type,Data defect,Flat,Flt,0.4% of installations have an invalid property type
+DEF00948,installation_transaction,T000567,Invalid property type,Data defect,House,Unknown,0.4% of installations have an invalid property type
+DEF00949,installation_transaction,T003294,Invalid property type,Data defect,Flat,Bungalow,0.4% of installations have an invalid property type
+DEF00950,installation_transaction,T000304,Invalid property type,Data defect,House,Bungalow,0.4% of installations have an invalid property type
+DEF00951,installation_transaction,T000437,Invalid property type,Data defect,Flat,Bungalow,0.4% of installations have an invalid property type
+DEF00952,installation_transaction,T002949,Invalid property type,Data defect,House,house,0.4% of installations have an invalid property type
+DEF00953,installation_transaction,T001814,Invalid property type,Data defect,Flat,Unknown,0.4% of installations have an invalid property type
+DEF00954,installation_transaction,T001630,Invalid property type,Data defect,House,FLAT ,0.4% of installations have an invalid property type
+DEF00955,installation_transaction,T000486,Invalid property type,Data defect,Flat,FLAT ,0.4% of installations have an invalid property type
+DEF00956,installation_transaction,T000150,Invalid property type,Data defect,Flat,Unknown,0.4% of installations have an invalid property type
+DEF00957,installation_transaction,T003103,Invalid property type,Data defect,Flat,Unknown,0.4% of installations have an invalid property type
+DEF00958,installation_transaction,T002931,Invalid property type,Data defect,Flat,Bungalow,0.4% of installations have an invalid property type
+DEF00959,installation_transaction,T005622,Invalid property type,Data defect,Flat,FLAT ,0.4% of installations have an invalid property type
+DEF00960,installation_transaction,T003413,Invalid property type,Data defect,Flat,Flt,0.4% of installations have an invalid property type
+DEF00961,installation_transaction,T001997,Invalid property type,Data defect,Flat,house,0.4% of installations have an invalid property type
+DEF00962,installation_transaction,T005751,Invalid property type,Data defect,Flat,Flt,0.4% of installations have an invalid property type
+DEF00963,installation_transaction,T004880,Missing installation date,Data defect,2025-10-22,,0.3% of installations have no installation date
+DEF00964,installation_transaction,T000773,Missing installation date,Data defect,2025-11-26,,0.3% of installations have no installation date
+DEF00965,installation_transaction,T004355,Missing installation date,Data defect,2026-01-19,,0.3% of installations have no installation date
+DEF00966,installation_transaction,T003813,Missing installation date,Data defect,2026-04-10,,0.3% of installations have no installation date
+DEF00967,installation_transaction,T005984,Missing installation date,Data defect,2026-01-12,,0.3% of installations have no installation date
+DEF00968,installation_transaction,T003781,Missing installation date,Data defect,2026-05-15,,0.3% of installations have no installation date
+DEF00969,installation_transaction,T001806,Missing installation date,Data defect,2025-12-05,,0.3% of installations have no installation date
+DEF00970,installation_transaction,T002269,Missing installation date,Data defect,2025-10-19,,0.3% of installations have no installation date
+DEF00971,installation_transaction,T001364,Missing installation date,Data defect,2026-03-24,,0.3% of installations have no installation date
+DEF00972,installation_transaction,T001210,Missing installation date,Data defect,2026-05-24,,0.3% of installations have no installation date
+DEF00973,installation_transaction,T000429,Missing installation date,Data defect,2026-05-08,,0.3% of installations have no installation date
+DEF00974,installation_transaction,T001857,Missing installation date,Data defect,2026-07-26,,0.3% of installations have no installation date
+DEF00975,installation_transaction,T004118,Missing installation date,Data defect,2026-04-30,,0.3% of installations have no installation date
+DEF00976,installation_transaction,T004243,Missing installation date,Data defect,2025-11-07,,0.3% of installations have no installation date
+DEF00977,installation_transaction,T000316,Missing installation date,Data defect,2026-01-12,,0.3% of installations have no installation date
+DEF00978,installation_transaction,T002139,Missing installation date,Data defect,2025-10-14,,0.3% of installations have no installation date
+DEF00979,installation_transaction,T001258,Missing installation date,Data defect,2026-05-06,,0.3% of installations have no installation date
+DEF00980,installation_transaction,T004918,Missing installation date,Data defect,2026-07-30,,0.3% of installations have no installation date
+DEF00981,installation_transaction,T003085,Installation date in the future,Data defect,2026-06-15,2026-12-30,0.3% of installations are dated after the reporting date
+DEF00982,installation_transaction,T000768,Installation date in the future,Data defect,2026-06-02,2026-12-12,0.3% of installations are dated after the reporting date
+DEF00983,installation_transaction,T004100,Installation date in the future,Data defect,2025-12-04,2026-11-23,0.3% of installations are dated after the reporting date
+DEF00984,installation_transaction,T000090,Installation date in the future,Data defect,2026-05-15,2027-01-31,0.3% of installations are dated after the reporting date
+DEF00985,installation_transaction,T004083,Installation date in the future,Data defect,2026-07-08,2027-04-09,0.3% of installations are dated after the reporting date
+DEF00986,installation_transaction,T005743,Installation date in the future,Data defect,2025-12-18,2027-02-15,0.3% of installations are dated after the reporting date
+DEF00987,installation_transaction,T003541,Installation date in the future,Data defect,2026-04-25,2026-12-17,0.3% of installations are dated after the reporting date
+DEF00988,installation_transaction,T003806,Installation date in the future,Data defect,2025-11-27,2026-12-04,0.3% of installations are dated after the reporting date
+DEF00989,installation_transaction,T003959,Installation date in the future,Data defect,2026-06-09,2027-01-01,0.3% of installations are dated after the reporting date
+DEF00990,installation_transaction,T003020,Installation date in the future,Data defect,2025-12-03,2027-02-20,0.3% of installations are dated after the reporting date
+DEF00991,installation_transaction,T004934,Installation date in the future,Data defect,2026-02-22,2026-12-31,0.3% of installations are dated after the reporting date
+DEF00992,installation_transaction,T003169,Installation date in the future,Data defect,2026-03-09,2027-04-05,0.3% of installations are dated after the reporting date
+DEF00993,installation_transaction,T004300,Installation date in the future,Data defect,2026-06-21,2026-11-15,0.3% of installations are dated after the reporting date
+DEF00994,installation_transaction,T004005,Installation date in the future,Data defect,2026-05-19,2026-12-13,0.3% of installations are dated after the reporting date
+DEF00995,installation_transaction,T000012,Installation date in the future,Data defect,2026-08-14,2027-02-10,0.3% of installations are dated after the reporting date
+DEF00996,installation_transaction,T002684,Installation date in the future,Data defect,2025-10-21,2027-02-18,0.3% of installations are dated after the reporting date
+DEF00997,installation_transaction,T004531,Installation date in the future,Data defect,2026-04-15,2026-12-07,0.3% of installations are dated after the reporting date
+DEF00998,installation_transaction,T005735,Installation date in the future,Data defect,2026-01-13,2027-02-06,0.3% of installations are dated after the reporting date
+DEF00999,installation_transaction,T000488,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01000,installation_transaction,T005008,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01001,installation_transaction,T001684,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01002,installation_transaction,T003909,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01003,installation_transaction,T001866,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01004,installation_transaction,T001218,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01005,installation_transaction,T000654,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01006,installation_transaction,T004375,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01007,installation_transaction,T005207,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01008,installation_transaction,T001296,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01009,installation_transaction,T003298,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01010,installation_transaction,T003143,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01011,installation_transaction,T002447,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01012,installation_transaction,T002850,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01013,installation_transaction,T002789,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01014,installation_transaction,T002632,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01015,installation_transaction,T003558,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01016,installation_transaction,T001476,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01017,installation_transaction,T001893,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01018,installation_transaction,T004620,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01019,installation_transaction,T004428,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01020,installation_transaction,T003096,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01021,installation_transaction,T004055,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01022,installation_transaction,T005669,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01023,installation_transaction,T002251,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01024,installation_transaction,T001101,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01025,installation_transaction,T005728,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01026,installation_transaction,T005111,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01027,installation_transaction,T001252,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01028,installation_transaction,T001470,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01029,installation_transaction,T003554,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01030,installation_transaction,T001104,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01031,installation_transaction,T004061,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01032,installation_transaction,T003888,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01033,installation_transaction,T004378,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01034,installation_transaction,T003545,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01035,installation_transaction,T002257,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01036,installation_transaction,T003062,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01037,installation_transaction,T002460,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01038,installation_transaction,T002600,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01039,installation_transaction,T000513,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01040,installation_transaction,T005957,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01041,installation_transaction,T001522,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01042,installation_transaction,T002094,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01043,installation_transaction,T000141,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01044,installation_transaction,T001227,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01045,installation_transaction,T002254,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01046,installation_transaction,T001637,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01047,installation_transaction,T005088,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01048,installation_transaction,T000152,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01049,installation_transaction,T005951,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01050,installation_transaction,T002137,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01051,installation_transaction,T000466,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01052,installation_transaction,T000532,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01053,installation_transaction,T004669,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01054,installation_transaction,T000841,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01055,installation_transaction,T002879,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01056,installation_transaction,T001507,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01057,installation_transaction,T003007,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01058,installation_transaction,T004771,Missing ineligible reason,Data defect,Not completed,,1.0% of installations (not eligible) have no reason
+DEF01059,installation_transaction,T004609,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01060,installation_transaction,T001093,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01061,installation_transaction,T005292,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01062,installation_transaction,T005376,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01063,installation_transaction,T000325,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01064,installation_transaction,T002883,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01065,installation_transaction,T003656,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01066,installation_transaction,T004871,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01067,installation_transaction,T004273,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01068,installation_transaction,T001950,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01069,installation_transaction,T002925,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01070,installation_transaction,T002834,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01071,installation_transaction,T004511,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01072,installation_transaction,T000658,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01073,installation_transaction,T001601,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01074,installation_transaction,T004742,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01075,installation_transaction,T000358,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01076,installation_transaction,T002271,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01077,installation_transaction,T000098,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01078,installation_transaction,T003082,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01079,installation_transaction,T005995,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01080,installation_transaction,T001854,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01081,installation_transaction,T000959,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01082,installation_transaction,T002159,Eligible but not completed,Data defect,0,1,0.4% of uncompleted installations are marked eligible
+DEF01083,installation_transaction,T006001,Duplicate installation (same property_ref),Data defect,T001974,PR001974,0.5% of installations are entered twice for the same property
+DEF01084,installation_transaction,T006002,Duplicate installation (same property_ref),Data defect,T002427,PR002427,0.5% of installations are entered twice for the same property
+DEF01085,installation_transaction,T006003,Duplicate installation (same property_ref),Data defect,T004571,PR004571,0.5% of installations are entered twice for the same property
+DEF01086,installation_transaction,T006004,Duplicate installation (same property_ref),Data defect,T000041,PR000041,0.5% of installations are entered twice for the same property
+DEF01087,installation_transaction,T006005,Duplicate installation (same property_ref),Data defect,T005241,PR005241,0.5% of installations are entered twice for the same property
+DEF01088,installation_transaction,T006006,Duplicate installation (same property_ref),Data defect,T002731,PR002731,0.5% of installations are entered twice for the same property
+DEF01089,installation_transaction,T006007,Duplicate installation (same property_ref),Data defect,T004610,PR004610,0.5% of installations are entered twice for the same property
+DEF01090,installation_transaction,T006008,Duplicate installation (same property_ref),Data defect,T002687,PR002687,0.5% of installations are entered twice for the same property
+DEF01091,installation_transaction,T006009,Duplicate installation (same property_ref),Data defect,T005405,PR005405,0.5% of installations are entered twice for the same property
+DEF01092,installation_transaction,T006010,Duplicate installation (same property_ref),Data defect,T002345,PR002345,0.5% of installations are entered twice for the same property
+DEF01093,installation_transaction,T006011,Duplicate installation (same property_ref),Data defect,T002926,PR002926,0.5% of installations are entered twice for the same property
+DEF01094,installation_transaction,T006012,Duplicate installation (same property_ref),Data defect,T005492,PR005492,0.5% of installations are entered twice for the same property
+DEF01095,installation_transaction,T006013,Duplicate installation (same property_ref),Data defect,T001091,PR001091,0.5% of installations are entered twice for the same property
+DEF01096,installation_transaction,T006014,Duplicate installation (same property_ref),Data defect,T004903,PR004903,0.5% of installations are entered twice for the same property
+DEF01097,installation_transaction,T006015,Duplicate installation (same property_ref),Data defect,T005353,PR005353,0.5% of installations are entered twice for the same property
+DEF01098,installation_transaction,T006016,Duplicate installation (same property_ref),Data defect,T004554,PR004554,0.5% of installations are entered twice for the same property
+DEF01099,installation_transaction,T006017,Duplicate installation (same property_ref),Data defect,T002474,PR002474,0.5% of installations are entered twice for the same property
+DEF01100,installation_transaction,T006018,Duplicate installation (same property_ref),Data defect,T004334,PR004334,0.5% of installations are entered twice for the same property
+DEF01101,installation_transaction,T006019,Duplicate installation (same property_ref),Data defect,T002665,PR002665,0.5% of installations are entered twice for the same property
+DEF01102,installation_transaction,T006020,Duplicate installation (same property_ref),Data defect,T004474,PR004474,0.5% of installations are entered twice for the same property
+DEF01103,installation_transaction,T006021,Duplicate installation (same property_ref),Data defect,T002571,PR002571,0.5% of installations are entered twice for the same property
+DEF01104,installation_transaction,T006022,Duplicate installation (same property_ref),Data defect,T005566,PR005566,0.5% of installations are entered twice for the same property
+DEF01105,installation_transaction,T006023,Duplicate installation (same property_ref),Data defect,T001674,PR001674,0.5% of installations are entered twice for the same property
+DEF01106,installation_transaction,T006024,Duplicate installation (same property_ref),Data defect,T004205,PR004205,0.5% of installations are entered twice for the same property
+DEF01107,installation_transaction,T006025,Duplicate installation (same property_ref),Data defect,T004354,PR004354,0.5% of installations are entered twice for the same property
+DEF01108,installation_transaction,T006026,Duplicate installation (same property_ref),Data defect,T001071,PR001071,0.5% of installations are entered twice for the same property
+DEF01109,installation_transaction,T006027,Duplicate installation (same property_ref),Data defect,T002350,PR002350,0.5% of installations are entered twice for the same property
+DEF01110,installation_transaction,T006028,Duplicate installation (same property_ref),Data defect,T001737,PR001737,0.5% of installations are entered twice for the same property
+DEF01111,installation_transaction,T006029,Duplicate installation (same property_ref),Data defect,T000460,PR000460,0.5% of installations are entered twice for the same property
+DEF01112,installation_transaction,T006030,Duplicate installation (same property_ref),Data defect,T005065,PR005065,0.5% of installations are entered twice for the same property
+DEF01113,po_line,POL005297,Installation on two PO lines,Data defect,POL004866,T004109,0.5% of PO lines repeat an installation already on a PO
+DEF01114,po_line,POL005298,Installation on two PO lines,Data defect,POL004607,T004087,0.5% of PO lines repeat an installation already on a PO
+DEF01115,po_line,POL005299,Installation on two PO lines,Data defect,POL002195,T001940,0.5% of PO lines repeat an installation already on a PO
+DEF01116,po_line,POL005300,Installation on two PO lines,Data defect,POL001002,T000107,0.5% of PO lines repeat an installation already on a PO
+DEF01117,po_line,POL005301,Installation on two PO lines,Data defect,POL003043,T005115,0.5% of PO lines repeat an installation already on a PO
+DEF01118,po_line,POL005302,Installation on two PO lines,Data defect,POL004016,T003381,0.5% of PO lines repeat an installation already on a PO
+DEF01119,po_line,POL005303,Installation on two PO lines,Data defect,POL000633,T002899,0.5% of PO lines repeat an installation already on a PO
+DEF01120,po_line,POL005304,Installation on two PO lines,Data defect,POL004332,T002738,0.5% of PO lines repeat an installation already on a PO
+DEF01121,po_line,POL005305,Installation on two PO lines,Data defect,POL001866,T004928,0.5% of PO lines repeat an installation already on a PO
+DEF01122,po_line,POL005306,Installation on two PO lines,Data defect,POL002589,T005196,0.5% of PO lines repeat an installation already on a PO
+DEF01123,po_line,POL005307,Installation on two PO lines,Data defect,POL001422,T003765,0.5% of PO lines repeat an installation already on a PO
+DEF01124,po_line,POL005308,Installation on two PO lines,Data defect,POL002574,T004062,0.5% of PO lines repeat an installation already on a PO
+DEF01125,po_line,POL005309,Installation on two PO lines,Data defect,POL000745,T005027,0.5% of PO lines repeat an installation already on a PO
+DEF01126,po_line,POL005310,Installation on two PO lines,Data defect,POL000576,T003109,0.5% of PO lines repeat an installation already on a PO
+DEF01127,po_line,POL005311,Installation on two PO lines,Data defect,POL000379,T005383,0.5% of PO lines repeat an installation already on a PO
+DEF01128,po_line,POL005312,Installation on two PO lines,Data defect,POL003158,T001449,0.5% of PO lines repeat an installation already on a PO
+DEF01129,po_line,POL005313,Installation on two PO lines,Data defect,POL004628,T001539,0.5% of PO lines repeat an installation already on a PO
+DEF01130,po_line,POL005314,Installation on two PO lines,Data defect,POL004476,T005868,0.5% of PO lines repeat an installation already on a PO
+DEF01131,po_line,POL005315,Installation on two PO lines,Data defect,POL004575,T001598,0.5% of PO lines repeat an installation already on a PO
+DEF01132,po_line,POL005316,Installation on two PO lines,Data defect,POL004515,T001127,0.5% of PO lines repeat an installation already on a PO
+DEF01133,po_line,POL005317,Installation on two PO lines,Data defect,POL001497,T002665,0.5% of PO lines repeat an installation already on a PO
+DEF01134,po_line,POL005318,Installation on two PO lines,Data defect,POL004290,T003598,0.5% of PO lines repeat an installation already on a PO
+DEF01135,po_line,POL005319,Installation on two PO lines,Data defect,POL004644,T004281,0.5% of PO lines repeat an installation already on a PO
+DEF01136,po_line,POL005320,Installation on two PO lines,Data defect,POL003985,T000584,0.5% of PO lines repeat an installation already on a PO
+DEF01137,po_line,POL005321,Installation on two PO lines,Data defect,POL001192,T005969,0.5% of PO lines repeat an installation already on a PO
+DEF01138,po_line,POL005322,Installation on two PO lines,Data defect,POL002190,T002028,0.5% of PO lines repeat an installation already on a PO
+DEF01139,invoice_header,INV001544,Missing invoice date,Data defect,2026-02-05,,0.3% of invoices have no invoice date
+DEF01140,invoice_header,INV000049,Missing invoice date,Data defect,2025-11-30,,0.3% of invoices have no invoice date
+DEF01141,invoice_header,INV001141,Missing invoice date,Data defect,2025-11-07,,0.3% of invoices have no invoice date
+DEF01142,invoice_header,INV000980,Missing invoice date,Data defect,2026-05-08,,0.3% of invoices have no invoice date
+DEF01143,invoice_header,INV001102,Missing invoice date,Data defect,2026-04-13,,0.3% of invoices have no invoice date
+DEF01144,invoice_header,INV001148,Invoice dated before PO,Data defect,2025-11-27,2025-11-13,0.5% of invoices are dated before their PO
+DEF01145,invoice_header,INV001360,Invoice dated before PO,Data defect,2026-08-29,2026-07-17,0.5% of invoices are dated before their PO
+DEF01146,invoice_header,INV001514,Invoice dated before PO,Data defect,2025-11-22,2025-11-03,0.5% of invoices are dated before their PO
+DEF01147,invoice_header,INV000842,Invoice dated before PO,Data defect,2026-07-14,2026-06-27,0.5% of invoices are dated before their PO
+DEF01148,invoice_header,INV000077,Invoice dated before PO,Data defect,2026-01-02,2025-12-04,0.5% of invoices are dated before their PO
+DEF01149,invoice_header,INV001572,Invoice dated before PO,Data defect,2026-02-25,2026-02-10,0.5% of invoices are dated before their PO
+DEF01150,invoice_header,INV000634,Invoice dated before PO,Data defect,2026-04-14,2026-03-31,0.5% of invoices are dated before their PO
+DEF01151,invoice_header,INV001493,Invoice dated before PO,Data defect,2026-09-18,2026-08-27,0.5% of invoices are dated before their PO
+DEF01152,invoice_header,INV000043,Invoice dated before PO,Data defect,2025-11-18,2025-11-04,0.5% of invoices are dated before their PO
+DEF01153,invoice_line,INL000489,Negative invoice line value,Data defect,90.00,-90.00,0.3% of invoice lines have a negative value
+DEF01154,invoice_line,INL005085,Negative invoice line value,Data defect,60.00,-60.00,0.3% of invoice lines have a negative value
+DEF01155,invoice_line,INL001670,Negative invoice line value,Data defect,90.00,-90.00,0.3% of invoice lines have a negative value
+DEF01156,invoice_line,INL001339,Negative invoice line value,Data defect,60.00,-60.00,0.3% of invoice lines have a negative value
+DEF01157,invoice_line,INL002935,Negative invoice line value,Data defect,90.00,-90.00,0.3% of invoice lines have a negative value
+DEF01158,invoice_line,INL000575,Negative invoice line value,Data defect,90.00,-90.00,0.3% of invoice lines have a negative value
+DEF01159,invoice_line,INL002347,Negative invoice line value,Data defect,60.00,-60.00,0.3% of invoice lines have a negative value
+DEF01160,invoice_line,INL003014,Negative invoice line value,Data defect,60.00,-60.00,0.3% of invoice lines have a negative value
+DEF01161,invoice_line,INL005382,Negative invoice line value,Data defect,90.00,-90.00,0.3% of invoice lines have a negative value
+DEF01162,invoice_line,INL000242,Negative invoice line value,Data defect,90.00,-90.00,0.3% of invoice lines have a negative value
+DEF01163,invoice_line,INL001111,Negative invoice line value,Data defect,60.00,-60.00,0.3% of invoice lines have a negative value
+DEF01164,invoice_line,INL000471,Negative invoice line value,Data defect,90.00,-90.00,0.3% of invoice lines have a negative value
+DEF01165,invoice_line,INL004965,Negative invoice line value,Data defect,60.00,-60.00,0.3% of invoice lines have a negative value
+DEF01166,invoice_line,INL000254,Negative invoice line value,Data defect,60.00,-60.00,0.3% of invoice lines have a negative value
+DEF01167,invoice_line,INL005556,Negative invoice line value,Data defect,60.00,-60.00,0.3% of invoice lines have a negative value
+DEF01168,invoice_line,INL003036,Negative invoice line value,Data defect,60.00,-60.00,0.3% of invoice lines have a negative value
+DEF01169,invoice_line,INL002333,Negative invoice line value,Data defect,90.00,-90.00,0.3% of invoice lines have a negative value
+DEF01170,payment,PAY001564,Duplicate payment (same reference),Data defect,PAY000380,RMT000380,0.6% of payments are repeated with the same reference
+DEF01171,payment,PAY001565,Duplicate payment (same reference),Data defect,PAY000534,RMT000534,0.6% of payments are repeated with the same reference
+DEF01172,payment,PAY001566,Duplicate payment (same reference),Data defect,PAY000501,RMT000501,0.6% of payments are repeated with the same reference
+DEF01173,payment,PAY001567,Duplicate payment (same reference),Data defect,PAY000237,RMT000237,0.6% of payments are repeated with the same reference
+DEF01174,payment,PAY001568,Duplicate payment (same reference),Data defect,PAY000031,RMT000031,0.6% of payments are repeated with the same reference
+DEF01175,payment,PAY001569,Duplicate payment (same reference),Data defect,PAY000964,RMT000964,0.6% of payments are repeated with the same reference
+DEF01176,payment,PAY001570,Duplicate payment (same reference),Data defect,PAY000127,RMT000127,0.6% of payments are repeated with the same reference
+DEF01177,payment,PAY001571,Duplicate payment (same reference),Data defect,PAY000220,RMT000220,0.6% of payments are repeated with the same reference
+DEF01178,payment,PAY001572,Duplicate payment (same reference),Data defect,PAY000553,RMT000553,0.6% of payments are repeated with the same reference
+DEF01179,payment,PAY001573,Potential duplicate payment,Data defect,PAY000017,RMT948219,"0.6% of payments are repeated with a new reference, same amount, within 3 days"
+DEF01180,payment,PAY001574,Potential duplicate payment,Data defect,PAY000989,RMT988698,"0.6% of payments are repeated with a new reference, same amount, within 3 days"
+DEF01181,payment,PAY001575,Potential duplicate payment,Data defect,PAY000274,RMT933198,"0.6% of payments are repeated with a new reference, same amount, within 3 days"
+DEF01182,payment,PAY001576,Potential duplicate payment,Data defect,PAY000093,RMT971173,"0.6% of payments are repeated with a new reference, same amount, within 3 days"
+DEF01183,payment,PAY001577,Potential duplicate payment,Data defect,PAY001386,RMT901107,"0.6% of payments are repeated with a new reference, same amount, within 3 days"
+DEF01184,payment,PAY001578,Potential duplicate payment,Data defect,PAY000720,RMT970973,"0.6% of payments are repeated with a new reference, same amount, within 3 days"
+DEF01185,payment,PAY001579,Potential duplicate payment,Data defect,PAY000230,RMT926688,"0.6% of payments are repeated with a new reference, same amount, within 3 days"
+DEF01186,payment,PAY001580,Potential duplicate payment,Data defect,PAY000706,RMT989828,"0.6% of payments are repeated with a new reference, same amount, within 3 days"
+DEF01187,payment,PAY001581,Potential duplicate payment,Data defect,PAY001136,RMT930172,"0.6% of payments are repeated with a new reference, same amount, within 3 days"
+DEF01188,payment_allocation,ALC001223,Overpayment,Business exception,510.00,560.00,1.0% of allocations pay more than the invoice
+DEF01189,payment_allocation,ALC000446,Overpayment,Business exception,150.00,175.00,1.0% of allocations pay more than the invoice
+DEF01190,payment_allocation,ALC001218,Overpayment,Business exception,63.00,113.00,1.0% of allocations pay more than the invoice
+DEF01191,payment_allocation,ALC001308,Overpayment,Business exception,330.00,340.00,1.0% of allocations pay more than the invoice
+DEF01192,payment_allocation,ALC001435,Overpayment,Business exception,390.00,415.00,1.0% of allocations pay more than the invoice
+DEF01193,payment_allocation,ALC001336,Overpayment,Business exception,480.00,505.00,1.0% of allocations pay more than the invoice
+DEF01194,payment_allocation,ALC001173,Overpayment,Business exception,60.00,85.00,1.0% of allocations pay more than the invoice
+DEF01195,payment_allocation,ALC001056,Overpayment,Business exception,45.00,70.00,1.0% of allocations pay more than the invoice
+DEF01196,payment_allocation,ALC000571,Overpayment,Business exception,273.00,323.00,1.0% of allocations pay more than the invoice
+DEF01197,payment_allocation,ALC000022,Overpayment,Business exception,60.00,85.00,1.0% of allocations pay more than the invoice
+DEF01198,payment_allocation,ALC001361,Overpayment,Business exception,420.00,445.00,1.0% of allocations pay more than the invoice
+DEF01199,payment_allocation,ALC001134,Overpayment,Business exception,60.00,110.00,1.0% of allocations pay more than the invoice
+DEF01200,payment_allocation,ALC000045,Overpayment,Business exception,330.00,380.00,1.0% of allocations pay more than the invoice
+DEF01201,payment_allocation,ALC000276,Overpayment,Business exception,90.00,100.00,1.0% of allocations pay more than the invoice
+DEF01202,payment_allocation,ALC001514,Overpayment,Business exception,90.00,140.00,1.0% of allocations pay more than the invoice
+DEF01203,payment_allocation,ALC001619,Overpayment,Business exception,90.00,115.00,1.0% of allocations pay more than the invoice
+DEF01204,payment_allocation,ALC000099,Overpayment,Business exception,45.00,55.00,1.0% of allocations pay more than the invoice
+DEF01205,payment_allocation,ALC000957,Allocation to a non-existent invoice,Data defect,INV001336,INV959526,0.5% of allocations point to an invoice that does not exist
+DEF01206,payment_allocation,ALC001473,Allocation to a non-existent invoice,Data defect,INV001410,INV921521,0.5% of allocations point to an invoice that does not exist
+DEF01207,payment_allocation,ALC001065,Allocation to a non-existent invoice,Data defect,INV001631,INV933087,0.5% of allocations point to an invoice that does not exist
+DEF01208,payment_allocation,ALC001460,Allocation to a non-existent invoice,Data defect,INV000293,INV909833,0.5% of allocations point to an invoice that does not exist
+DEF01209,payment_allocation,ALC000057,Allocation to a non-existent invoice,Data defect,INV000386,INV976341,0.5% of allocations point to an invoice that does not exist
+DEF01210,payment_allocation,ALC000369,Allocation to a non-existent invoice,Data defect,INV000530,INV968811,0.5% of allocations point to an invoice that does not exist
+DEF01211,payment_allocation,ALC001611,Allocation to a non-existent invoice,Data defect,INV000447,INV990979,0.5% of allocations point to an invoice that does not exist
+DEF01212,payment_allocation,ALC001410,Allocation to a non-existent invoice,Data defect,INV000825,INV959743,0.5% of allocations point to an invoice that does not exist
+DEF01213,payment_allocation,ALC000762,Negative allocation amount,Data defect,240.00,-240.00,0.3% of allocations have a negative amount
+DEF01214,payment_allocation,ALC000782,Negative allocation amount,Data defect,480.00,-480.00,0.3% of allocations have a negative amount
+DEF01215,payment_allocation,ALC000301,Negative allocation amount,Data defect,63.00,-63.00,0.3% of allocations have a negative amount
+DEF01216,payment_allocation,ALC001615,Negative allocation amount,Data defect,330.00,-330.00,0.3% of allocations have a negative amount
+DEF01217,payment_allocation,ALC000318,Negative allocation amount,Data defect,150.00,-150.00,0.3% of allocations have a negative amount
+DEF01218,payment,PAY000715,Payment amount differs from allocations,Data defect,120.00,135.00,1.0% of payments do not equal the sum of their allocations
+DEF01219,payment,PAY000913,Payment amount differs from allocations,Data defect,90.00,65.00,1.0% of payments do not equal the sum of their allocations
+DEF01220,payment,PAY000993,Payment amount differs from allocations,Data defect,330.00,305.00,1.0% of payments do not equal the sum of their allocations
+DEF01221,payment,PAY000514,Payment amount differs from allocations,Data defect,360.00,400.00,1.0% of payments do not equal the sum of their allocations
+DEF01222,payment,PAY000645,Payment amount differs from allocations,Data defect,120.00,95.00,1.0% of payments do not equal the sum of their allocations
+DEF01223,payment,PAY000296,Payment amount differs from allocations,Data defect,270.00,285.00,1.0% of payments do not equal the sum of their allocations
+DEF01224,payment,PAY000172,Payment amount differs from allocations,Data defect,63.00,78.00,1.0% of payments do not equal the sum of their allocations
+DEF01225,payment,PAY000574,Payment amount differs from allocations,Data defect,60.00,75.00,1.0% of payments do not equal the sum of their allocations
+DEF01226,payment,PAY000331,Payment amount differs from allocations,Data defect,330.00,305.00,1.0% of payments do not equal the sum of their allocations
+DEF01227,payment,PAY000810,Payment amount differs from allocations,Data defect,150.00,125.00,1.0% of payments do not equal the sum of their allocations
+DEF01228,payment,PAY000999,Payment amount differs from allocations,Data defect,390.00,430.00,1.0% of payments do not equal the sum of their allocations
+DEF01229,payment,PAY001040,Payment amount differs from allocations,Data defect,810.00,850.00,1.0% of payments do not equal the sum of their allocations
+DEF01230,payment,PAY000601,Payment amount differs from allocations,Data defect,420.00,460.00,1.0% of payments do not equal the sum of their allocations
+DEF01231,payment,PAY001480,Payment amount differs from allocations,Data defect,210.00,225.00,1.0% of payments do not equal the sum of their allocations
+DEF01232,payment,PAY001102,Payment amount differs from allocations,Data defect,18.00,58.00,1.0% of payments do not equal the sum of their allocations
+DEF01233,payment,PAY001388,Payment amount differs from allocations,Data defect,420.00,395.00,1.0% of payments do not equal the sum of their allocations
+DEF01234,workflow_event,EVT014500,Invoice approved before submission,Data defect,2026-04-13 10:50:00,2026-04-05 13:54:00,0.2% of events have an invalid status order
+DEF01235,workflow_event,EVT014288,Invoice approved before submission,Data defect,2025-12-20 12:54:00,2025-12-12 14:13:00,0.2% of events have an invalid status order
+DEF01236,workflow_event,EVT013478,Invoice approved before submission,Data defect,2026-01-07 10:38:00,2026-01-02 15:33:00,0.2% of events have an invalid status order
+DEF01237,workflow_event,EVT014704,Invoice approved before submission,Data defect,2026-07-11 15:46:00,2026-07-08 10:24:00,0.2% of events have an invalid status order
+DEF01238,workflow_event,EVT014947,Invoice approved before submission,Data defect,2026-06-01 11:02:00,2026-05-25 13:41:00,0.2% of events have an invalid status order
+DEF01239,workflow_event,EVT016318,Invoice approved before submission,Data defect,2025-12-29 16:59:00,2025-12-24 17:53:00,0.2% of events have an invalid status order
+DEF01240,workflow_event,EVT015548,Invoice approved before submission,Data defect,2025-11-08 10:40:00,2025-10-31 16:30:00,0.2% of events have an invalid status order
+DEF01241,workflow_event,EVT013640,Invoice approved before submission,Data defect,2026-04-20 15:49:00,2026-04-13 16:04:00,0.2% of events have an invalid status order
+DEF01242,workflow_event,EVT015608,Invoice approved before submission,Data defect,2026-04-23 11:55:00,2026-04-20 10:09:00,0.2% of events have an invalid status order
+DEF01243,workflow_event,EVT015056,Invoice approved before submission,Data defect,2026-02-21 16:10:00,2026-02-14 17:11:00,0.2% of events have an invalid status order
+DEF01244,workflow_event,EVT014144,Invoice approved before submission,Data defect,2026-07-30 11:21:00,2026-07-23 09:30:00,0.2% of events have an invalid status order
+DEF01245,workflow_event,EVT015554,Invoice approved before submission,Data defect,2025-11-21 11:31:00,2025-11-13 14:54:00,0.2% of events have an invalid status order
+DEF01246,workflow_event,EVT013856,Invoice approved before submission,Data defect,2026-08-26 09:34:00,2026-08-20 12:19:00,0.2% of events have an invalid status order
+DEF01247,workflow_event,EVT014977,Invoice approved before submission,Data defect,2026-05-27 08:50:00,2026-05-22 16:33:00,0.2% of events have an invalid status order
+DEF01248,workflow_event,EVT014562,Invoice approved before submission,Data defect,2026-05-10 11:44:00,2026-05-03 16:06:00,0.2% of events have an invalid status order
+DEF01249,workflow_event,EVT014178,Invoice approved before submission,Data defect,2025-11-13 16:55:00,2025-11-10 14:07:00,0.2% of events have an invalid status order
+DEF01250,workflow_event,EVT015076,Invoice approved before submission,Data defect,2026-04-13 14:28:00,2026-04-07 16:47:00,0.2% of events have an invalid status order
+DEF01251,workflow_event,EVT014877,Invoice approved before submission,Data defect,2026-05-01 13:18:00,2026-04-21 14:27:00,0.2% of events have an invalid status order
+DEF01252,workflow_event,EVT015840,Invoice approved before submission,Data defect,2025-12-22 16:04:00,2025-12-19 16:03:00,0.2% of events have an invalid status order
+DEF01253,workflow_event,EVT015446,Invoice approved before submission,Data defect,2026-03-20 12:32:00,2026-03-14 11:41:00,0.2% of events have an invalid status order
+DEF01254,workflow_event,EVT014953,Invoice approved before submission,Data defect,2025-11-02 16:41:00,2025-10-26 14:54:00,0.2% of events have an invalid status order
+DEF01255,workflow_event,EVT013780,Invoice approved before submission,Data defect,2026-07-10 12:13:00,2026-07-04 08:24:00,0.2% of events have an invalid status order
+DEF01256,workflow_event,EVT013290,Invoice approved before submission,Data defect,2026-09-07 14:13:00,2026-09-01 11:21:00,0.2% of events have an invalid status order
+DEF01257,workflow_event,EVT015430,Invoice approved before submission,Data defect,2026-02-01 15:06:00,2026-01-29 14:26:00,0.2% of events have an invalid status order
+DEF01258,workflow_event,EVT015036,Invoice approved before submission,Data defect,2025-12-22 08:23:00,2025-12-14 17:34:00,0.2% of events have an invalid status order
+DEF01259,workflow_event,EVT013870,Invoice approved before submission,Data defect,2026-09-10 15:53:00,2026-09-05 08:28:00,0.2% of events have an invalid status order
+DEF01260,workflow_event,EVT015080,Invoice approved before submission,Data defect,2026-05-16 11:14:00,2026-05-10 10:28:00,0.2% of events have an invalid status order
+DEF01261,workflow_event,EVT016022,Invoice approved before submission,Data defect,2026-02-23 16:14:00,2026-02-19 11:49:00,0.2% of events have an invalid status order
+DEF01262,workflow_event,EVT014036,Invoice approved before submission,Data defect,2025-11-06 17:32:00,2025-11-01 13:46:00,0.2% of events have an invalid status order
+DEF01263,workflow_event,EVT013860,Invoice approved before submission,Data defect,2026-08-31 10:00:00,2026-08-24 15:26:00,0.2% of events have an invalid status order
+DEF01264,workflow_event,EVT015038,Invoice approved before submission,Data defect,2025-12-29 17:35:00,2025-12-15 16:24:00,0.2% of events have an invalid status order
+DEF01265,workflow_event,EVT015794,Invoice approved before submission,Data defect,2026-06-23 11:20:00,2026-06-15 11:28:00,0.2% of events have an invalid status order
+DEF01266,workflow_event,EVT014688,Invoice approved before submission,Data defect,2026-07-17 12:37:00,2026-07-09 12:53:00,0.2% of events have an invalid status order
+DEF01267,workflow_event,EVT013972,Invoice approved before submission,Data defect,2026-04-27 17:33:00,2026-04-22 14:47:00,0.2% of events have an invalid status order
+DEF01268,workflow_event,EVT013386,Invoice approved before submission,Data defect,2025-12-14 16:13:00,2025-12-08 12:52:00,0.2% of events have an invalid status order
+DEF01269,workflow_event,EVT015948,Invoice approved before submission,Data defect,2026-07-21 15:31:00,2026-07-14 15:47:00,0.2% of events have an invalid status order
+DEF01270,workflow_event,EVT013918,Invoice approved before submission,Data defect,2025-12-23 13:37:00,2025-12-19 09:27:00,0.2% of events have an invalid status order
+DEF01271,workflow_event,EVT014070,Invoice approved before submission,Data defect,2026-01-23 15:14:00,2026-01-17 16:46:00,0.2% of events have an invalid status order
+DEF01272,workflow_event,EVT016170,Invoice approved before submission,Data defect,2026-02-21 09:01:00,2026-02-07 11:11:00,0.2% of events have an invalid status order
+DEF01273,workflow_event,EVT013676,Invoice approved before submission,Data defect,2026-05-19 15:09:00,2026-05-14 13:04:00,0.2% of events have an invalid status order
+DEF01274,workflow_event,EVT014312,Invoice approved before submission,Data defect,2025-12-30 15:31:00,2025-12-25 08:40:00,0.2% of events have an invalid status order
+DEF01275,workflow_event,EVT015216,Invoice approved before submission,Data defect,2026-04-16 15:29:00,2026-04-12 17:09:00,0.2% of events have an invalid status order
