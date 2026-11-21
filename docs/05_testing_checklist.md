@@ -18,18 +18,18 @@ Rule: differences are investigated and explained, never adjusted to make tools a
 
 | # | Check | Found | Planted | Result |
 |---|---|---|---|---|
-| D1 | Missing vendor / project code | 24 / 24 | 24 / 24 | Pass |
-| D2 | Missing installation date | 18 | 18 | Pass |
-| D3 | Invalid property type | 24 | 24 | Pass |
-| D4 | Wrong rebate | 120 | 120 | Pass |
-| D5 | PO differs from rule | 148 | 148 | Pass |
-| D6 | Duplicate invoice reference | 19 | 19 | Pass |
-| D7 | Potential duplicate invoices | 12 | 12 | Pass (count) |
-| D8 | Potential duplicate payments | 9 | 9 | Pass (count) |
-| D9 | Approved before submitted | 42 | 42 | Pass |
-| D10 | Invoice dated before PO | 9 | 9 | Pass |
+| DT1 | Missing vendor / project code | 24 / 24 | 24 / 24 | Pass |
+| DT2 | Missing installation date | 18 | 18 | Pass |
+| DT3 | Invalid property type | 24 | 24 | Pass |
+| DT4 | Wrong rebate | 120 | 120 | Pass |
+| DT5 | PO differs from rule | 148 | 148 | Pass |
+| DT6 | Duplicate invoice reference | 19 | 19 | Pass |
+| DT7 | Potential duplicate invoices | 12 | 12 | Pass (count) |
+| DT8 | Potential duplicate payments | 9 | 9 | Pass (count) |
+| DT9 | Approved before submitted | 42 | 42 | Pass |
+| DT10 | Invoice dated before PO | 9 | 9 | Pass |
 
-Note: D7 and D8 match on count. Record-by-record matching was not done.
+Note: DT7 and DT8 match on count. Record-by-record matching was not done.
 
 ## 3. Cross-tool totals
 
@@ -44,13 +44,15 @@ Note: D7 and D8 match on count. Record-by-record matching was not done.
 | Overpaid | 6,746 | 6,746 | 6,746 | 6,746 |
 | Billing exceptions (count) | 565 | 565 | not tested | 565 |
 
+- Power BI billing exceptions (565) reads the SQL chain status export, so it is not an independent recalculation.
+
 ## 4. Differences found and explained
 
 | # | Difference | Cause | Resolution |
 |---|---|---|---|
 | E1 | Excel paid 347,773 vs SQL 345,646 | 8 allocations (2,127) point to non-existent invoices | Two named measures (D35) |
 | E2 | Ageing total 43,380 vs K5 43,530 | 1 invoice (150) has no invoice date | Confirmed in Excel |
-| E3 | Rule-based rebate 389,220 vs recorded 391,085 | Net effect of rebate defects | Not split by cause (open item) |
+| E3 | Rule-based rebate 389,220 vs recorded 391,085 | Net effect of rebate defects | Not split by cause; listed under limitations |
 | E4 | First DAX measures disagreed with SQL | Filter flow through an inactive relationship | Rebuilt as per-invoice columns (D38) |
 | E5 | Overpaid 49 invoices vs 46 | 3 invoices had a non-positive total | Explained (46 + 3) |
 

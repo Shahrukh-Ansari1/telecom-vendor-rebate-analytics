@@ -9,7 +9,7 @@
 | Item | Detail |
 |---|---|
 | Author | Shahrukh Ansari |
-| Version | 0.1 (draft) |
+| Version | 1.0 |
 | Date | 30 October 2026 |
 | Fictional company | Northbridge Telecom Infrastructure |
 
@@ -83,7 +83,7 @@ Without these answers, financial leakage (such as overpayments), rework and late
 
 **Out of scope (exclusions)**
 
-- Any real BT or other company data, rates, vendor records or internal processes
+- Any real company data, rates, vendor records or internal processes
 - Connection to live systems such as SAP
 - Machine learning or predictive modelling
 - Automated payment or approval workflows
@@ -129,7 +129,7 @@ Each question is linked to a stakeholder and to the project objective it support
 
 ## 7. KPI Definitions
 
-All amounts are in GBP. Rates and thresholds come from the configurable business rules (see `03_business_rules.md`, to be written later). These definitions are provisional until the data model is final.
+All amounts are in GBP. Rates and thresholds come from the configurable business rules (see `03_business_rules.md`).
 
 ### 7.1 Financial chain KPIs
 
@@ -138,7 +138,7 @@ All amounts are in GBP. Rates and thresholds come from the configurable business
 | K1 | Expected Rebate Value | The rebate the company should owe vendors for eligible completed installations. | SUM of (Eligible Flats x £60) + (Eligible Houses x £90), taken per installation transaction | Installation transaction (one row per installation) | Only eligible, completed installations are counted. Rates are illustrative assumptions, not real policy. Transactions with missing or invalid property type are flagged, not counted silently. |
 | K2 | PO Value | The total value committed to vendors through purchase orders. | SUM of PO line values | PO line (one row per line on a PO) | Cancelled POs are excluded. A PO can have several lines, so we sum lines, never headers, to avoid double-counting. |
 | K3 | Invoiced Value | The total value vendors have billed. | SUM of invoice line values | Invoice line (one row per line on an invoice) | Rejected invoices are excluded. A resubmitted invoice is counted once, through its replacement. Potential duplicates are flagged and remain in the total until investigated, so exposure is visible. |
-| K4 | Paid Value | The value actually paid against invoices. | SUM of payment allocation amounts | Payment allocation (one row per amount of a payment applied to an invoice) | Uses allocations, not payments, because one payment can cover several invoices and one invoice can be paid in several parts. Only completed payments count. |
+| K4 | Paid Value | The value actually paid against invoices. | SUM of payment allocation amounts | Payment allocation (one row per amount of a payment applied to an invoice) | Uses allocations, not payments, because one payment can cover several invoices and one invoice can be paid in several parts. Only completed payments count. Allocations that point to an invoice that does not exist are excluded and reported as an exception. |
 
 ### 7.2 Balance and control KPIs
 
@@ -146,8 +146,8 @@ All amounts are in GBP. Rates and thresholds come from the configurable business
 |---|---|---|---|---|---|
 | K5 | Outstanding Invoice Balance | Invoice value that has been billed but not yet paid, as at the reporting date. | SUM over valid invoices of (Invoiced Value - Paid Value), counting only balances above zero | Invoice header, joined to payment allocation totals per invoice | Rejected and cancelled invoices are excluded. Payments are summed per invoice before joining, to avoid double-counting. Overpaid invoices (negative balance) are reported separately as overpayments, not netted off. Depends on the reporting date. |
 | K6 | Overdue Invoice Balance | The part of the outstanding balance that is past its due date, as at the reporting date. | SUM of outstanding balance for invoices where Reporting Date > Due Date. Due Date = Invoice Date + payment terms (days), where payment terms are set in the business rules | Invoice header, joined to payment allocation totals per invoice | The payment terms (for example 30 days) are an illustrative assumption, not company policy. Invoices under investigation are still counted but can be filtered. Depends on the reporting date. |
-| K7 | Exception Value | The financial value affected by transactions that fail a reconciliation or control check. | SUM of the absolute financial difference for each exception, counting each transaction once even if it fails several checks | Exception record (one row per transaction per exception type), rolled up to transaction | Difference is measured in the chain stage where it arises (rebate vs PO, PO vs invoice, invoice vs payment). Exception value is exposure, not confirmed loss. Genuine business exceptions (for example an approved partial payment) are kept separate from data-quality defects. |
-| K8 | SLA Compliance % | The share of items completed within the SLA threshold for their workflow stage. | Items completed within threshold / Total items completed in the period x 100 | Workflow event (one row per status change), measured per stage | Thresholds are illustrative and configurable, not official policy. Items still open are excluded from the denominator and reported separately. Changing a threshold changes the result, which is why Phase 9 tests alternative thresholds. |
+| K7 | Exception Value | The financial value affected by transactions that fail a reconciliation or control check. | SUM of the absolute financial difference for each exception, SUM of the absolute financial difference per exception category. Each installation and each invoice has one status. Stage A (installation to invoice) and stage B (invoice to payment) are reported separately. | Installation chain view (one row per installation) and invoice payment status view (one row per invoice) | Difference is measured in the chain stage where it arises (rebate vs PO, PO vs invoice, invoice vs payment). Exception value is exposure, not confirmed loss. Genuine business exceptions (for example an approved partial payment) are kept separate from data-quality defects. |
+| K8 | SLA Compliance % | The share of items completed within the SLA threshold for their workflow stage. | Items completed within threshold / Total items completed in the period x 100 | Workflow event (one row per status change), measured per stage | Thresholds are illustrative and configurable, not official policy. Items still open are excluded from the denominator and reported separately. Changing a threshold changes the result, which is why alternative thresholds are tested (see reports/findings.md, F7). |
 
 ### 7.3 Vendor, efficiency and data quality KPIs
 
@@ -162,16 +162,16 @@ All amounts are in GBP. Rates and thresholds come from the configurable business
 
 ## 8. Assumptions
 
-These are illustrative modelling choices for this independent project. They are not real company policy. All values will be held in a configurable business-rules table.
+These are illustrative modelling choices for this independent project. They are not real company policy. All values are held in the business_rules table.
 
 | ID | Assumption | Value |
 |---|---|---|
 | A1 | Rebate per eligible flat | £60 |
 | A2 | Rebate per eligible house | £90 |
 | A3 | Payment terms (days from invoice date) | 30 (illustrative) |
-| A4 | SLA thresholds per workflow stage | To be defined in the business rules |
+| A4 | SLA thresholds per workflow stage | Installation to rebate 2 days, PO to invoice 14, invoice review 5, approval to payment 10 (illustrative) |
 | A5 | Minimum transactions to rank a vendor | 30 (illustrative) |
-| A6 | Reporting date (data snapshot) | One fixed date, to be chosen when the data is generated |
+| A6 | Reporting date (data snapshot) | 30 Sep 2026, used in every tool |
 | A7 | Currency | GBP only |
 | A8 | Days used for processing time | Calendar days (configurable) |
 
@@ -186,10 +186,10 @@ Business rules are fixed requirements of the scenario (for example, the rebate f
 | R1 | The data is synthetic, so findings describe this dataset only and cannot be applied to a real company. | State this clearly in every deliverable. Present findings as demonstrations of method. |
 | R2 | Defects are planted by us, so a check finding them proves the check works, not that real data behaves this way. | Keep a defect injection log and use it to test the checks. |
 | R3 | A small vendor sample can give misleading exception rates. | Use rates, a minimum volume threshold and a "low volume" label. |
-| R4 | The tools may disagree because of different logic or rounding. | Cross-tool reconciliation tests in Phase 10. Investigate differences and never adjust figures just to match. |
+| R4 | The tools may disagree because of different logic or rounding. | Cross-tool reconciliation tests, recorded in 05_testing_checklist.md. Investigate differences and never adjust figures just to match. |
 | R5 | Overdue and outstanding figures depend on the chosen reporting date. | Use one fixed snapshot date in all tools. |
-| R6 | Some Python libraries may be blocked by Windows Smart App Control. | Use older, widely trusted versions, recorded in requirements.txt. |
-| R7 | Confidential BT information could enter the project by accident. | Use only synthetic data and invented names, rates and rules. |
+| R6 | Newer library builds may be blocked by some Windows security settings. | Library versions are pinned in requirements.txt. |
+| R7 | Real employer or client information could enter the project by accident. | Use only synthetic data and invented names, rates and rules. |
 
 ---
 
@@ -199,14 +199,13 @@ Business rules are fixed requirements of the scenario (for example, the rebate f
 2. Data dictionary, business rules and decision log
 3. Python data-generation scripts and synthetic CSV files, plus a defect injection log
 4. Data profiling report
-5. MySQL database with schema, load, quality, reconciliation, KPI and analysis SQL scripts
+5. MySQL database with schema, quality, reconciliation, KPI and analysis SQL scripts, and a Python loader
 6. Excel reconciliation workbook
 7. Python analysis notebooks
 8. Power BI model and five-page dashboard
 9. Testing checklist with cross-tool reconciliation results
 10. Findings, recommendations and executive summary
 11. README and portfolio screenshots
-12. Resume and interview preparation material
 
 ---
 
@@ -220,4 +219,4 @@ The project is successful when:
 4. The checks detect the defects recorded in the defect injection log.
 5. The whole project can be rebuilt from a clean start using the documented steps.
 6. Every finding states its data, method, result, interpretation and limitations.
-7. I can explain every table, query, measure and decision in my own words.
+7. Every table, query, measure and decision is documented and traceable from the charter to the result.

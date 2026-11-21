@@ -36,8 +36,8 @@ This diagram shows how data moves through the project and which tool does which 
        v                      v                       v
 +--------------+     +------------------+    +------------------+
 | 5. PYTHON    |     | 6. EXCEL         |    | 7. POWER BI      |
-| EDA, anomaly |     | Power Query,     |    | Data model, DAX  |
-| analysis,    |     | SUMIFS, Pivots,  |    | measures, 5      |
+| KPI,         |     | Power Query,     |    | Data model, DAX  |
+|recalculation,|     | SUMIFS, Pivots,  |    | measures, 5      |
 | charts       |     | exception report |    | dashboard pages  |
 +------+-------+     +--------+---------+    +--------+---------+
        |                      |                       |
@@ -52,7 +52,7 @@ This diagram shows how data moves through the project and which tool does which 
                                |
                                v
 +--------------------------------------------------------------+
-|  9. FINDINGS, RECOMMENDATIONS, README, PORTFOLIO             |
+|  9. FINDINGS, RECOMMENDATIONS, DOCUMENTATION                 |
 +--------------------------------------------------------------+
 ```
 
@@ -110,5 +110,5 @@ This diagram shows the business process the project analyses, from installation 
 
 ### How to read the workflow
 
-- Stages 2 to 7 are the stages where we measure processing time (K10) and SLA compliance (K8).
+- Processing time and SLA are measured on four steps: installation to rebate, PO to invoice, invoice review, and approval to payment.
 - The loop from REJECTED back to stage 5 is why one invoice can have several workflow events, and why we count a resubmitted invoice only once.

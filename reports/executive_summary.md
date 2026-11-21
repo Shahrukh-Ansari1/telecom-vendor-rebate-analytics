@@ -15,8 +15,9 @@
 | Outstanding / of which overdue | £43,530 / £29,896 |
 | Overpaid | £6,746 |
 | Installations with a billing-chain break | 565 of 6,030 (9.37%) |
+| Rule-based expected rebate | £389,220 |
 
-Four tools (SQL, Excel, Python, Power BI) reproduced these totals. Every difference was investigated and explained.
+SQL, Excel, Python and Power BI reproduced K1 to K6 and overpaid. Every difference was investigated and explained.
 
 ## Main findings
 
@@ -37,7 +38,7 @@ Four tools (SQL, Excel, Python, Power BI) reproduced these totals. Every differe
 | 4 | Chase invoices over 60 days overdue first | £22,438 over 60 days | Low |
 | 5 | Agree SLA thresholds before using them as targets | Sensitivity in F7 | Low |
 
-Estimated benefits are not calculated: no savings are claimed.
+No savings are estimated or claimed.
 
 ## Limitations
 

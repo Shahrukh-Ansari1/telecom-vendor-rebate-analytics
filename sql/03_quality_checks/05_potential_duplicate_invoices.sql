@@ -1,5 +1,5 @@
 -- Potential duplicate invoices
--- Answers Q5. Business rule: same vendor, same invoice total, dates within 7 days,
+-- Potential duplicate invoices, loose rule (same vendor, same total, dates within 7 days, different reference). Flags many coincidences; the review rule is in 05b.
 -- different references. Needs human review.
 -- DISCLAIMER: Independent case study using synthetic data. Not an official BT project.
 

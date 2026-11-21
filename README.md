@@ -60,6 +60,7 @@ MySQL 8.0 database `telecom_rebate`. Scripts are in `sql/`, in run order:
 | `03_quality_checks` | Missing, invalid, duplicate, broken-link, amount and date-order checks. Potential duplicates use tightened rules (same PO line billed twice, same invoice paid twice). |
 | `04_reconciliation` | Invoice balances, ageing, installation chain status (view), invoice payment status (view), exception summary. |
 | `05_kpis` | Vendor exception rate, SLA and processing time, monthly SLA trend, control totals. |
+| `06_analysis` | SLA threshold sensitivity. |
 
 Key rules: sum at one grain only (lines, allocations), aggregate before joining, one status per record (the first place the chain breaks), exposure measured as absolute difference, and rates and thresholds read from `business_rules`.
 
@@ -102,7 +103,7 @@ See `reports/findings.md` (F1 to F7) and `reports/executive_summary.md`. Recomme
 - Rates, payment terms and SLA thresholds are illustrative.
 - Power BI hard-codes 30-day terms and the reporting date.
 - Power BI pages for chain status, vendor rate, SLA and ageing read SQL exports, so they check presentation, not independent logic.
-- Power BI and the loader use local `C:\Projects\...` paths.
+- The notebooks and the Power BI file use absolute Windows paths (C:\Projects\telecom-vendor-rebate-analytics). Change them if the project is in another folder.
 - Potential-duplicate counts match planted defects, but record-by-record matching was not done.
 - One open item: the £1,865 gap between recorded and rule-based rebate is not split by cause.
 
@@ -115,7 +116,7 @@ See `reports/findings.md` (F1 to F7) and `reports/executive_summary.md`. Recomme
    .\.venv\Scripts\Activate.ps1
    python -m pip install -r requirements.txt
    ```
-   Note: `pandas` is pinned to 2.2.3 because newer builds were blocked by Windows Smart App Control on the author's PC.
+   Note: `pandas` is pinned to 2.2.3 because newer builds were blocked by the Windows security setting on the development machine.
 3. Generate the data: `python src\generate_data.py` (writes 12 CSVs to `data\raw`).
 4. In MySQL Workbench, run the four files in `sql\01_schema` in order.
 5. Load the data: `python src\load_to_mysql.py` (the password is typed when asked and never stored).
@@ -136,3 +137,10 @@ screenshots/ dashboard, Excel and Python images
 sql/         schema, checks, reconciliation, KPIs
 src/         data generator and MySQL loader
 ```
+## Author
+
+Shahrukh Ansari
+
+## Licence
+
+MIT. See `LICENSE`.

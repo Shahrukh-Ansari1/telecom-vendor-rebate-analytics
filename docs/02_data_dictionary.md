@@ -2,7 +2,7 @@
 
 > **Disclaimer:** This project is an independent telecom operations analytics case study developed using synthetic data and illustrative business rules. It is not an official BT project and does not contain BT operational or confidential data.
 
-**Conventions:** PK = primary key, FK = foreign key. All money is in GBP, stored with 2 decimal places. Table and column names use lowercase with underscores.
+**Conventions:** PK = primary key, FK = foreign key. All money is in GBP, stored with 2 decimal places. Table and column names use lowercase with underscores. Columns described as mandatory are nullable in MySQL, so that deliberately defective rows can load and be found by the quality checks.
 
 ---
 
@@ -57,7 +57,7 @@
 | rule_kind | VARCHAR(15) | | Rule or assumption | Business rule, Assumption |
 | description | VARCHAR(200) | | What the rule means | Required |
 
-**Planned rows (SLA thresholds will be added later):**
+**Rows:**
 
 | rule_id | rule_name | rule_value | value_type | rule_kind |
 |---|---|---|---|---|
@@ -66,7 +66,12 @@
 | BR03 | PAYMENT_TERMS_DAYS | 30 | INTEGER | Assumption |
 | BR04 | MIN_VENDOR_TRANSACTIONS | 30 | INTEGER | Assumption |
 | BR05 | TIME_BASIS | CALENDAR | TEXT | Assumption |
-| BR06 | REPORTING_DATE | (to be set) | DATE | Assumption |
+| BR06 | REPORTING_DATE | 2026-09-30 | DATE | Assumption |
+| BR07 | SLA_INSTALLATION_TO_REBATE | 2 | INTEGER | Assumption |
+| BR08 | SLA_PO_TO_INVOICE | 14 | INTEGER | Assumption |
+| BR09 | SLA_INVOICE_REVIEW | 5 | INTEGER | Assumption |
+| BR10 | SLA_APPROVAL_TO_PAYMENT | 10 | INTEGER | Assumption |
+| BR11 | AMOUNT_TOLERANCE | 0.00 | DECIMAL | Assumption |
 
 ---
 
@@ -89,7 +94,7 @@
 | completion_status | VARCHAR(15) | | Outcome of the installation | Completed, Failed, Cancelled |
 | is_eligible | TINYINT | | Whether the installation qualifies for a rebate | 1 = eligible, 0 = not eligible. Only Completed installations can be eligible |
 | ineligible_reason | VARCHAR(40) | | Why it is not eligible | Blank when eligible. For example Not completed, Outside project scope |
-| expected_rebate_recorded | DECIMAL(10,2) | | Rebate value written by the source system | Should be 60.00 (flat), 90.00 (house) or 0.00 (not eligible). Wrong values are planted on purpose |
+| expected_rebate_recorded | DECIMAL(10,2) | | Rebate value written by the source system | Should be 60.00 (flat), 90.00 (house) or 0.00 (not eligible). Wrong values contains deliberate errors in this synthetic dataset (see defect_injection_log) |
 | recorded_date | DATE | | Date the record was entered | On or after installation_date |
 
 **Rebate rule used to check expected_rebate_recorded:**
@@ -117,7 +122,7 @@
 | vendor_id | VARCHAR(10) | FK | Vendor the PO is raised for | Must exist in dim_vendor. Mandatory |
 | po_date | DATE | | Date the PO was created | Mandatory. Not in the future |
 | po_status | VARCHAR(15) | | Current PO status | Open, Closed, Cancelled |
-| created_by | VARCHAR(30) | | Synthetic buyer name | Fictional names only |
+| created_by | VARCHAR(50) | | Synthetic buyer name | Fictional names only |
 
 ### 3.2 po_line
 
@@ -131,7 +136,7 @@
 | po_id | VARCHAR(12) | FK | The PO this line belongs to | Must exist in po_header. Mandatory |
 | transaction_id | VARCHAR(12) | FK | The installation this line pays for | Must exist in installation_transaction. Unique across lines (an installation should be on only one PO line) |
 | line_number | TINYINT | | Position of the line within the PO | 1, 2, 3 and so on, unique within a PO |
-| po_line_value | DECIMAL(10,2) | | Value committed for this installation | Should equal the expected rebate. Differences are planted on purpose |
+| po_line_value | DECIMAL(10,2) | | Value committed for this installation | Should equal the expected rebate. Differences contains deliberate errors in this synthetic dataset (see defect_injection_log) |
 
 **Columns intentionally left out:** a PO total on the header. It can be calculated by summing lines, and a stored total could disagree with its own lines.
 
@@ -153,7 +158,7 @@
 | po_id | VARCHAR(12) | FK | PO the invoice refers to | Should exist in po_header. Blank or invalid means an unmatched invoice |
 | invoice_date | DATE | | Date on the invoice | Mandatory. Not in the future. Not before the PO date |
 | received_date | DATE | | Date the company received it | On or after invoice_date |
-| invoice_status | VARCHAR(15) | | Review outcome | Submitted, Approved, Rejected, Cancelled |
+| invoice_status | VARCHAR(15) | | Review outcome | Submitted, Approved, Rejected |
 | rejection_reason | VARCHAR(40) | | Why it was rejected | Filled only when status is Rejected. For example Amount mismatch, Missing PO |
 | replaces_invoice_id | VARCHAR(12) | FK | Earlier invoice this one replaces | Blank unless a resubmission. Must exist in invoice_header |
 
@@ -169,7 +174,7 @@
 | invoice_id | VARCHAR(12) | FK | The invoice this line belongs to | Must exist in invoice_header. Mandatory |
 | po_line_id | VARCHAR(14) | FK | The PO line being billed | Should exist in po_line. Blank or invalid means an unmatched line |
 | line_number | TINYINT | | Position of the line within the invoice | 1, 2, 3 and so on, unique within an invoice |
-| invoice_line_value | DECIMAL(10,2) | | Value billed for this line | Should equal the PO line value. Must not be negative. Differences are planted on purpose |
+| invoice_line_value | DECIMAL(10,2) | | Value billed for this line | Should equal the PO line value. Must not be negative. Differences contains deliberate errors in this synthetic dataset (see defect_injection_log) |
 
 **Columns intentionally left out:**
 - An invoice total on the header, and a due date. Totals come from summing lines, and the due date is invoice_date plus PAYMENT_TERMS_DAYS from the business rules.
@@ -193,7 +198,7 @@
 | vendor_id | VARCHAR(10) | FK | Vendor who was paid | Must exist in dim_vendor. Mandatory |
 | payment_reference | VARCHAR(20) | | Reference on the remittance advice | Mandatory. Repeats may indicate a confirmed duplicate payment |
 | payment_date | DATE | | Date the payment was made | Mandatory. Not in the future |
-| payment_amount | DECIMAL(12,2) | | Total money paid | Must be greater than zero. Should equal the sum of its allocations. Differences are planted on purpose |
+| payment_amount | DECIMAL(12,2) | | Total money paid | Must be greater than zero. Should equal the sum of its allocations. Differences contains deliberate errors in this synthetic dataset (see defect_injection_log) |
 | payment_status | VARCHAR(15) | | Outcome of the payment | Completed, Pending, Failed, Reversed |
 
 ### 5.2 payment_allocation
@@ -233,7 +238,7 @@
 | event_id | VARCHAR(12) | PK | Unique event code | Format EVT000001 and so on |
 | entity_type | VARCHAR(15) | | Kind of record the event belongs to | Installation, PO, Invoice, Payment |
 | entity_id | VARCHAR(14) | | ID of that record | Must exist in the table matching entity_type |
-| vendor_id | VARCHAR(10) | FK | Vendor the record belongs to | Must exist in dim_vendor. Stored here to make vendor analysis simpler |
+| vendor_id | VARCHAR(10) | | Vendor the record belongs to | Should match the vendor on the underlying record. Not enforced by a foreign key; checked by query |
 | from_status | VARCHAR(20) | | Status before the change | Blank for the first event of a record |
 | to_status | VARCHAR(20) | | Status after the change | Mandatory |
 | event_timestamp | DATETIME | | When the change happened | Mandatory. Not in the future. Not before the previous event of the same record |
@@ -261,13 +266,13 @@ Any other order, for example Approved before Submitted, is an invalid status tra
 | defect_id | VARCHAR(10) | PK | Unique defect code | Format DEF00001 and so on |
 | table_name | VARCHAR(30) | | Table holding the affected record | One of the project tables |
 | record_id | VARCHAR(14) | | ID of the affected record | Primary key value in that table |
-| defect_type | VARCHAR(40) | | Category of defect | For example Wrong rebate, Missing vendor, Duplicate invoice reference |
+| defect_type | VARCHAR(50) | | Category of defect | For example Wrong rebate, Missing vendor, Duplicate invoice reference |
 | defect_class | VARCHAR(20) | | Data defect or business exception | Data defect, Business exception |
 | original_value | VARCHAR(50) | | The correct value before the defect was planted | Blank if the field was empty by design |
 | defect_value | VARCHAR(50) | | The value after the defect was planted | The value that appears in the CSV |
-| injected_rule | VARCHAR(100) | | Short description of the rule used | For example 3% of eligible flats get a rebate of 90.00 |
+| injected_rule | VARCHAR(150) | | Short description of the rule used | For example 2.0% of installations have a wrong recorded rebate |
 
-**Important:** the defect log is for testing only. The cleaning, SQL and Power BI logic must never read it to decide what to flag. If they did, we would be marking our own homework.
+**Important:** the defect log is for testing only. The cleaning, SQL and Power BI logic must never read it to decide what to flag. If they did, the checks would look perfect without proving anything.
 
 ---
 
@@ -281,7 +286,7 @@ All relationships below are in the "one side to many side" direction.
 | 2 | dim_vendor | po_header | vendor_id | One-to-many | Yes |
 | 3 | dim_vendor | invoice_header | vendor_id | One-to-many | Yes |
 | 4 | dim_vendor | payment | vendor_id | One-to-many | Yes |
-| 5 | dim_vendor | workflow_event | vendor_id | One-to-many | Yes |
+| 5 | dim_vendor | workflow_event | vendor_id | One-to-many | No (checked by query) |
 | 6 | po_header | po_line | po_id | One-to-many | Yes |
 | 7 | installation_transaction | po_line | transaction_id | One-to-one in a clean dataset | Yes (foreign key). Uniqueness is checked, not enforced |
 | 8 | po_header | invoice_header | po_id | One-to-many | Checked by queries, because unmatched invoices must be able to load |
